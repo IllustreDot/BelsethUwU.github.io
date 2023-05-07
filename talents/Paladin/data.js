@@ -15,6 +15,7 @@ talent[i] = [0, "Seals of the Pure", 5, 3, 1]; i++;
 talent[i] = [0, "Healing Light", 3, 1, 2]; i++;
 talent[i] = [0, "Divine Intellect", 5, 2, 2]; i++;
 talent[i] = [0, "Unyielding Faith", 2, 3, 2]; i++;
+talent[i] = [0, "Freedom Fighter", 1, 4, 2,[getTalentID("Unyielding Faith"),2]]; i++;
 talent[i] = [0, "Aura Mastery", 1, 1, 3]; i++;
 talent[i] = [0, "Illumination", 5, 2, 3]; i++;
 talent[i] = [0, "Improved Lay on Hands", 2, 3, 3]; i++;
@@ -31,6 +32,7 @@ talent[i] = [0, "Holy Shock", 1, 2, 7, [getTalentID("Divine Favor"),1]]; i++;
 talent[i] = [0, "Blessed Life", 3, 3, 7]; i++;
 talent[i] = [0, "Sacred Cleansing", 3, 1, 8]; i++;
 talent[i] = [0, "Holy Guidance", 5, 3, 8]; i++;
+talent[i] = [0, "Blessed Defense", 1, 4, 8,[getTalentID("Blessed Life"),1]]; i++;
 talent[i] = [0, "Divine Illumination", 1, 1, 9]; i++;
 talent[i] = [0, "Judgements of the Pure", 5, 3, 9]; i++;
 talent[i] = [0, "Infusion of Light", 2, 2, 10, [getTalentID("Holy Shock"),1]]; i++;
@@ -55,6 +57,7 @@ talent[i] = [1, "Improved Hammer of Justice", 2, 2, 4]; i++;
 talent[i] = [1, "Improved Devotion Aura", 3, 3, 4]; i++;
 talent[i] = [1, "Blessing of Sanctuary", 1, 2, 5]; i++;
 talent[i] = [1, "Reckoning", 5, 3, 5]; i++;
+talent[i] = [1, "Glory of the Dawn", 1,4,5,[getTalentID("Reckoning"),1]]; i++;
 talent[i] = [1, "Sacred Duty", 2, 1, 6]; i++;
 talent[i] = [1, "One-Handed Weapon Specialization", 3, 3, 6]; i++;
 talent[i] = [1, "Spiritual Attunement", 2, 1, 7]; i++;
@@ -87,6 +90,7 @@ talent[i] = [2, "Sanctity of Battle", 3, 3, 4]; i++;
 talent[i] = [2, "Crusade", 3, 4, 4]; i++;
 talent[i] = [2, "Two-Handed Weapon Specialization", 3, 1, 5]; i++;
 talent[i] = [2, "Sanctified Retribution", 1, 3, 5]; i++;
+talent[i] = [2, "Sanctified Consecration",1,4,5,[getTalentID("Sanctified Retribution"),1]]; i++;
 talent[i] = [2, "Vengeance", 3, 2, 6, [getTalentID("Conviction"),5]]; i++;
 talent[i] = [2, "Divine Purpose", 2, 3, 6]; i++;
 talent[i] = [2, "The Art of War", 2, 1, 7]; i++;
@@ -98,6 +102,7 @@ talent[i] = [2, "Swift Retribution", 3, 1, 9]; i++;
 talent[i] = [2, "Crusader Strike", 1, 2, 9]; i++;
 talent[i] = [2, "Sheath of Light", 3, 3, 9]; i++;
 talent[i] = [2, "Righteous Vengeance", 3, 2, 10]; i++;
+talent[i] = [2, "Divine Devotion", 1,3,10,[getTalentID("Righteous Vengeance"),1]]; i++;
 talent[i] = [2, "Divine Storm", 1, 2, 11]; i++;
 
 treeStartStop[t] = i -1;
@@ -152,7 +157,10 @@ rank[i] = [
 "Reduces the duration of all Fear and Disorient effects by 30%."
 		];
 i++;
-	
+rank[i]=[
+	"Placeholder"
+	];
+	i++;
 //Aura Mastery - Retribution 
 rank[i]=[
 "Causes your Concentration Aura to make all affected targets immune to Silence and Interrupt effects and improve the effect of all other auras by 100%. Lasts 6 sec."
@@ -274,7 +282,10 @@ rank[i] = [
 "Increases your spell power by 20% of your total Intellect."
 		];
 i++;
-
+rank[i]=[
+	"Placeholder"
+	];
+	i++;
 //Divine Illumination - Holy			
 rank[i] = [
 "<span style=text-align:left;float:left;>Instant</span><span style=text-align:right;float:right;>3 min cooldown</span><br>Reduces the mana cost of all spells by 50% for 15 sec."
@@ -421,7 +432,10 @@ rank[i] = [
 "Gives you a 10% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."						
 		];
 i++;
-
+rank[i]=[
+	"Placeholder"
+	];
+	i++;
 //Sacred Duty - Protection
 rank[i] = [
 "Increases your total Stamina by 2%, reduces the cooldown of your Divine Shield and Divine Protection spells by 30 sec.",
@@ -626,7 +640,10 @@ rank[i] = [
 "Increases the damage caused by Retribution Aura by 50% and all damage caused by friendly targets affected by any of your Auras is increased by 3%."
 		];
 i++;
-
+rank[i]=[
+"Placeholder"
+];
+i++;
 //Vengeance - Retribution
 rank[i]=[
 "Gives you a 1% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell or ability. This effect stacks up to 3 times.",
@@ -707,7 +724,10 @@ rank[i]=[
 "When your Judgement and Divine Storm spells deal a critical strike, your target will take 30% additional damage over 8 sec.",
 		];
 i++;
-
+rank[i]=[
+"Placeholder"
+];
+i++;
 //Divine Storm - Retribution
 rank[i]=[
 "<span style=text-align:left;float:left;>12% of base mana</span><span style=text-align:right;float:right;>Melee Range</span><br><span style=text-align:left;float:left;>Instant cast</span><span style=text-align:right;float:right;>10 sec cooldown</span><br>Requires Melee Weapon<br>An instant weapon attack that causes 110% of weapon damage to up to 4 enemies within 8 yards. The Divine Storm heals up to 3 party or raid members totaling 25% of the damage caused."						
