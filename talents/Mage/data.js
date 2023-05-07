@@ -16,6 +16,7 @@ talent[i] = [0, "Arcane Stability", 5, 3, 1]; i++;
 talent[i] = [0, "Arcane Fortitude", 3, 1, 2]; i++;
 talent[i] = [0, "Magic Absorption", 2, 2, 2]; i++;
 talent[i] = [0, "Arcane Concentration", 5, 3, 2]; i++;
+talent[i] = [0, "Diverted Energy", 1, 4, 2,[getTalentID("Arcane Concentration"),2]]; i++;
 talent[i] = [0, "Magic Attunement", 2, 1, 3]; i++;
 talent[i] = [0, "Spell Impact", 3, 2, 3]; i++;
 talent[i] = [0, "Student of the Mind", 3, 3, 3]; i++;
@@ -33,6 +34,7 @@ talent[i] = [0, "Arcane Potency", 2, 3, 6, [getTalentID("Presence of Mind"),1]];
 talent[i] = [0, "Arcane Empowerment", 3, 1, 7]; i++;
 talent[i] = [0, "Arcane Power", 1, 2, 7, [getTalentID("Arcane Instability"),3]]; i++;
 talent[i] = [0, "Incanter's Absorption", 3, 3, 7]; i++;
+talent[i] = [0, "Improved Mana Shield",1,4,7,[getTalentID("Incanter's Absorption"),2]]; i++;
 talent[i] = [0, "Arcane Flows", 2, 2, 8, [getTalentID("Arcane Power"),1]]; i++;
 talent[i] = [0, "Mind Mastery", 5, 3, 8]; i++;
 talent[i] = [0, "Slow", 1, 2, 9]; i++;
@@ -60,6 +62,7 @@ talent[i] = [1, "Master of Elements", 3, 4, 4]; i++;
 talent[i] = [1, "Playing with Fire", 3, 1, 5]; i++;
 talent[i] = [1, "Critical Mass", 3, 2, 5]; i++;
 talent[i] = [1, "Blast Wave", 1, 3, 5, [getTalentID("Pyroblast"),1]]; i++;
+talent[i] = [1, "Volatile Detonation",1,4,5,[getTalentID("Blast Wave"),1]]; i++;
 talent[i] = [1, "Blazing Speed", 2, 1, 6]; i++;
 talent[i] = [1, "Fire Power", 5, 3, 6]; i++;
 talent[i] = [1, "Pyromaniac", 3, 1, 7]; i++;
@@ -67,6 +70,7 @@ talent[i] = [1, "Combustion", 1, 2, 7, [getTalentID("Critical Mass"),3]]; i++;
 talent[i] = [1, "Molten Fury", 2, 3, 7]; i++;
 talent[i] = [1, "Fiery Payback", 2, 1, 8]; i++;
 talent[i] = [1, "Empowered Fire", 3, 3, 8]; i++;
+talent[i] = [1, "Master of Flame", 3, 4, 8, [getTalentID("Empowered Fire"),2]]; i++;
 talent[i] = [1, "Firestarter", 2, 1, 9, [i+1,1]]; i++;
 talent[i] = [1, "Dragon's Breath", 1, 2, 9, [getTalentID("Combustion"),1]]; i++;
 talent[i] = [1, "Hot Streak", 3, 3, 9]; i++;
@@ -91,6 +95,7 @@ talent[i] = [2, "Improved Blizzard", 3, 3, 3]; i++;
 talent[i] = [2, "Arctic Reach", 2, 1, 4]; i++;
 talent[i] = [2, "Frost Channeling", 3, 2, 4]; i++;
 talent[i] = [2, "Shatter", 3, 3, 4]; i++;
+talent[i] = [2, "Snowstorm",1,4,4,[getTalentID("Improved Blizzard"),2]]; i++;
 talent[i] = [2, "Cold Snap", 1, 2, 5]; i++;
 talent[i] = [2, "Improved Cone of Cold", 3, 3, 5]; i++;
 talent[i] = [2, "Frozen Core", 3, 4, 5]; i++;
@@ -106,6 +111,7 @@ talent[i] = [2, "Summon Water Elemental", 1, 2, 9]; i++;
 talent[i] = [2, "Enduring Winter", 3, 3, 9, [getTalentID("Summon Water Elemental"),1]]; i++;
 talent[i] = [2, "Chilled to the Bone", 5, 2, 10]; i++;
 talent[i] = [2, "Deep Freeze", 1, 2, 11]; i++;
+talent[i] = [2, "Glacial Spike", 1, 3, 11]; i++;
 treeStartStop[t] = i -1;
 t++;
 
@@ -162,7 +168,11 @@ rank[i] = [
 "Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target. The Clearcasting state reduces the mana cost of your next damage spell by 100%."
 		];
 i++;		
-
+//Diverted Energy - Arcane
+rank[i] = [
+"Placeholder"
+];
+i++;
 //Magic Attunement - Arcane
 rank[i] = [
 "Increases the range of your Arcane spells by 3 yards and the effect of your Amplify Magic and Dampen Magic spells by 25%.",
@@ -289,7 +299,11 @@ rank[i]=[
 "When your Mana Shield, Frost Ward, Fire Ward, or Ice Barrier absorbs damage your spell damage is increased by 15% of the amount absorbed for 10 sec."
 		];
 i++;
-
+//Improved Mana Shield - Arcane
+rank[i]=[
+"Placeholder"
+];
+i++;
 //Arcane Flows - Arcane 
 rank[i]=[
 "Reduces the cooldown of your Presence of Mind, Arcane Power and Invisibility spells by 15% and the cooldown of your Evocation spell by 1 min.",
@@ -468,7 +482,11 @@ rank[i] = [
 "7% of base mana<br><span style=text-align:left;float:left;>Instant</span><span style=text-align:right;float:right;>30 sec cooldown</span><br>A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 154 to 186 Fire damage, knocking them back and Dazing them for 6 sec.<br>"
 ];
 i++;		
-
+//Volatile Detonation - Fire
+rank[i] = [
+"Placeholder"
+];
+i++;
 //Blazing Speed - Fire	
 rank[i] = [
 "Gives you a 5% chance when hit by a melee or ranged attack to increase your movement speed by 50% and dispel all movement impairing effects. This effect lasts 8 sec.",
@@ -520,6 +538,12 @@ rank[i] = [
 "Increases the damage of your Fireball, Frostfire Bolt and Pyroblast spells by an amount equal to 10% of your spell power. In addition, each time your Ignite talent causes damage, you have a 67% chance to regain 2% of your base mana.",
 "Increases the damage of your Fireball, Frostfire Bolt and Pyroblast spells by an amount equal to 15% of your spell power. In addition, each time your Ignite talent causes damage, you have a 100% chance to regain 2% of your base mana."
 		];
+i++;
+
+//Master of flames - Fire
+rank[i] = [
+"Placeholder"
+];
 i++;
 
 //Firestarter - Fire
@@ -663,7 +687,11 @@ rank[i]=[
 "Increases the critical strike chance of all your spells against frozen targets by 50%."
 		];
 i++;
-
+//Snowstorm - Frost
+rank[i]=[
+"Placeholder"
+];
+i++;
 //Cold Snap - Frost
 rank[i]=[
 "<span style=text-align:left;float:left;>Instant</span><span style=text-align:right;float:right;>8 min cooldown</span><br>When activated, this spell finishes the cooldown on all Frost spells you recently cast."
@@ -775,6 +803,10 @@ rank[i]=[
 "<span style=text-align:left;float:left;>9% of base mana</span><span style=text-align:right;float:right;>30 yd range</span><br><span style=text-align:left;float:left;>Instant cast</span><span style=text-align:right;float:right;>30 sec cooldown</span><br>Stuns the target for 5 sec. Only usable on Frozen targets. Deals 1469 - 1741 damage to targets permanently immune to stuns.<br>"
 		];
 i++;
-		
+//Glacial Spike - Frost
+rank[i]=[
+"Placeholder"
+];
+i++;		
 //Frost Talents End^^
 jsLoaded=true;//needed for ajax script loading
