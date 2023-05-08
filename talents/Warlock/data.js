@@ -23,6 +23,7 @@ talent[i] = [0, "Soul Siphon", 2, 4, 2]; i++;
 talent[i] = [0, "Improved Fear", 2, 1, 3]; i++;
 talent[i] = [0, "Fel Concentration", 3, 2, 3]; i++;
 talent[i] = [0, "Amplify Curse", 1, 3, 3]; i++;
+talent[i] = [0, "Improved Curses", 1, 4,3,[getTalentID("Amplify Curse"),1]]; i++;
 talent[i] = [0, "Grim Reach", 2, 1, 4]; i++;
 talent[i] = [0, "Nightfall", 2, 2, 4]; i++;
 talent[i] = [0, "Empowered Corruption", 3, 4, 4]; i++;
@@ -36,6 +37,7 @@ talent[i] = [0, "Contagion", 5, 2, 7]; i++;
 talent[i] = [0, "Dark Pact", 1, 3, 7]; i++;
 talent[i] = [0, "Improved Howl of Terror", 2, 1, 8]; i++;
 talent[i] = [0, "Malediction", 3, 3, 8]; i++;
+talent[i] = [0, "Void Drain", 1, 4,8,[getTalentID("Dark Pact"),1]];i++;
 talent[i] = [0, "Death's Embrace", 3, 1, 9]; i++;
 talent[i] = [0, "Unstable Affliction", 1, 2, 9, [getTalentID("Contagion"),5]]; i++;
 talent[i] = [0, "Pandemic", 1, 3, 9, [getTalentID("Unstable Affliction"),1]]; i++;
@@ -62,11 +64,13 @@ talent[i] = [1, "Mana Feed", 1, 1, 5, [getTalentID("Unholy Power"),5]]; i++;
 talent[i] = [1, "Master Conjuror", 2, 3, 5]; i++;
 talent[i] = [1, "Master Demonologist", 5, 2, 6, [getTalentID("Unholy Power"),5]]; i++;
 talent[i] = [1, "Molten Core", 3, 3, 6]; i++;
+talent[i] = [1, "Demonic Core", 1, 4,6,[getTalentID("Molten Core"),2]]; i++;
 talent[i] = [1, "Demonic Resilience", 3, 1, 7]; i++;
 talent[i] = [1, "Demonic Empowerment", 1, 2, 7, [getTalentID("Master Demonologist"),5]]; i++;
 talent[i] = [1, "Demonic Knowledge", 3, 3, 7]; i++;
 talent[i] = [1, "Demonic Tactics", 5, 2, 8]; i++;
 talent[i] = [1, "Decimation", 2, 3, 8]; i++;
+talent[i] = [1, "Imp Gang", 2, 4,8,[getTalentID("Decimation"),2]];i++;
 talent[i] = [1, "Improved Demonic Tactics", 3, 1, 9, [getTalentID("Demonic Tactics"),5]]; i++;
 talent[i] = [1, "Summon Felguard", 1, 2, 9]; i++;
 talent[i] = [1, "Nemesis", 3, 3, 9]; i++;
@@ -90,6 +94,7 @@ talent[i] = [2, "Improved Searing Pain", 3, 4, 4]; i++;
 talent[i] = [2, "Backlash", 3, 1, 5, [getTalentID("Intensity"),2]]; i++;
 talent[i] = [2, "Improved Immolate", 3, 2, 5]; i++;
 talent[i] = [2, "Devastation", 1, 3, 5, [getTalentID("Ruin"),5]]; i++;
+talent[i] = [2, "Power Overwhelming", 1, 4,5]; i++;
 talent[i] = [2, "Nether Protection", 3, 1, 6]; i++;
 talent[i] = [2, "Emberstorm", 5, 3, 6]; i++;
 talent[i] = [2, "Conflagrate", 1, 2, 7, [getTalentID("Improved Immolate"),3]]; i++;
@@ -100,6 +105,7 @@ talent[i] = [2, "Improved Soul Leech", 2, 3, 8, [getTalentID("Soul Leech"),3]]; 
 talent[i] = [2, "Backdraft", 3, 1, 9, [getTalentID("Conflagrate"),1]]; i++;
 talent[i] = [2, "Shadowfury", 1, 2, 9]; i++;
 talent[i] = [2, "Empowered Imp", 3, 3, 9]; i++;
+talent[i] = [2, "Infernal Felfire", 1, 4 ,9]; i++;
 talent[i] = [2, "Fire and Brimstone", 5, 2, 10]; i++;
 talent[i] = [2, "Chaos Bolt", 1, 2, 11]; i++;
 treeStartStop[t] = i -1;
@@ -184,7 +190,11 @@ rank[i] = [
 "Reduces the global cooldown of your Curses by 0.5 sec."
 		];
 i++;		
-
+// Custom 
+rank[i] = [
+"Placeholder"
+];
+i++;
 //Grim Reach - Affliction
 rank[i] = [
 "Increases the range of your Affliction spells by 10%.",
@@ -284,7 +294,11 @@ rank[i] = [
 "Increases your spell damage by 3%, and increases the periodic critical strike chance of your Corruption and Unstable Affliction spells by 9%."
 		];
 i++;
-
+// Custom 
+rank[i] = [
+	"Placeholder"
+	];
+	i++;
 //Death's Embrace - Affliction
 rank[i] = [
 "Increases the amount drained by your Drain Life by 10% while your health is at or below 20% health, and increases the damage done by your Shadow spells by 4% when your target is at or below 35% health.",
@@ -451,7 +465,11 @@ rank[i] = [
 "Increases the duration of your Immolate by 9 sec, and you have a 12% chance to gain the Molten Core effect when your Corruption deals damage. The Molten Core effect empowers your next 3 Incinerate or Soul Fire spells cast within 15 sec.<br><br>Incinerate - Increases damage done by 18% and reduces cast time by 30%.<br><br>Soul Fire - Increases damage done by 18% and increases critical strike chance by 15%."
 		];
 i++;
-
+// Custom 
+rank[i] = [
+	"Placeholder"
+	];
+	i++;
 //Demonic Resilience - Demonology 
 rank[i]=[
 "Reduces the chance you'll be critically hit by melee and spells by 1% and reduces all damage your summoned demon takes by 5%.",
@@ -490,7 +508,11 @@ rank[i]=[
 "When you Shadowbolt, Incinerate or Soul Fire a target that is at or below 35% health, the cast time of Soul Fire spell is reduced by 40% for 10 sec. Soul Fires cast under the effect of Decimation cost no shard."
 		];
 i++;	
-
+// Custom 
+rank[i] = [
+	"Placeholder"
+	];
+	i++;
 //Improved Demonic Tactics - Demonology
 rank[i]=[
 "Increases your summoned demons critical strike chance equal to 10% of your critical strike chance.",
@@ -641,7 +663,11 @@ rank[i]=[
 "Increases the critical strike chance of your Destruction spells by 5%."
 		];
 i++;
-
+// Custom 
+rank[i] = [
+	"Placeholder"
+	];
+	i++;
 //Nether Protection - Destruction 
 rank[i]=[
 "After being hit with a spell, you have a 10% chance to gain Nether Protection, reducing all damage by that spell school by 30% for 8 sec.",
@@ -720,7 +746,11 @@ rank[i]=[
 "Increases the damage done by your Imp by 30%, and all critical hits done by your Imp have a 100% chance to increase your spell critical hit chance for your next spell by 20%. This effect lasts 8 sec."
 		];
 i++;
-
+// Custom 
+rank[i] = [
+	"Placeholder"
+	];
+	i++;
 //Fire and Brimstone - Destruction 
 rank[i]=[
 "Increases the damage done by your Incinerate and Chaos Bolt spells to targets afflicted by your Immolate by 2%, and the critical strike chance of your Conflagrate spell is increased by 5%.",
