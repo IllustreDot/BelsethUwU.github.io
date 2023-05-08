@@ -31,6 +31,7 @@ talent[i] = [0, "Veteran of the Third War", 3, 3, 5]; i++;
 talent[i] = [0, "Mark of Blood", 1, 4, 5]; i++;
 talent[i] = [0, "Bloody Vengeance", 3, 2, 6, [getTalentID("Dark Conviction"),5]]; i++;
 talent[i] = [0, "Abomination's Might", 2, 3, 6]; i++;
+talent[i] = [0, "Tombstone", 1,4,6, [getTalentID("Mark of Blood"),1]]; i++;
 talent[i] = [0, "Bloodworms", 3, 1, 7]; i++;
 talent[i] = [0, "Hysteria", 1, 2, 7]; i++;
 talent[i] = [0, "Improved Blood Presence", 2, 3, 7]; i++;
@@ -40,6 +41,7 @@ talent[i] = [0, "Vampiric Blood", 1, 3, 8]; i++;
 talent[i] = [0, "Will of the Necropolis", 3, 1, 9]; i++;
 talent[i] = [0, "Heart Strike", 1, 2, 9]; i++;
 talent[i] = [0, "Might of Mograine", 3, 3, 9]; i++;
+talent[i] = [0, "Blood Feast", 1,1,10, [getTalentID("Will of the Necropolis"),2]]; i++;
 talent[i] = [0, "Blood Gorged", 5, 2, 10]; i++;
 talent[i] = [0, "Dancing Rune Weapon", 1, 2, 11]; i++;
 treeStartStop[t] = i -1;
@@ -64,6 +66,7 @@ talent[i] = [1, "Deathchill", 1, 4, 5]; i++;
 talent[i] = [1, "Improved Icy Talons", 1, 1, 6, [getTalentID("Icy Talons"),5]]; i++;
 talent[i] = [1, "Merciless Combat", 2, 2, 6]; i++
 talent[i] = [1, "Rime", 3, 3, 6]; i++;
+talent[i] = [1, "Absolute Zero",1,4,6, [getTalentID("Rime"),2]];i++;
 talent[i] = [1, "Chilblains", 3, 1, 7]; i++;
 talent[i] = [1, "Hungering Cold", 1, 2, 7]; i++;
 talent[i] = [1, "Improved Frost Presence", 2, 3, 7]; i++;
@@ -73,6 +76,7 @@ talent[i] = [1, "Unbreakable Armor", 1, 3, 8]; i++;
 talent[i] = [1, "Acclimation", 3, 1, 9]; i++;
 talent[i] = [1, "Frost Strike", 1, 2, 9]; i++;
 talent[i] = [1, "Guile of Gorefiend", 3, 3, 9]; i++;
+talent[i] = [1, "Shattering Cold"], 1,4,9,[getTalentID("Guile of Gorefiend"),2]; i++;
 talent[i] = [1, "Tundra Stalker", 5, 2, 10]; i++;
 talent[i] = [1, "Howling Blast", 1, 2, 11]; i++;
 treeStartStop[t] = i -1;
@@ -103,12 +107,14 @@ talent[i] = [2, "Desolation", 5, 1, 7]; i++;
 talent[i] = [2, "Anti-Magic Zone", 1, 2, 7, [getTalentID("Magic Suppression"),3]]; i++;
 talent[i] = [2, "Improved Unholy Presence", 2, 3, 7]; i++;
 talent[i] = [2, "Ghoul Frenzy", 1, 4, 7, [getTalentID("Master of Ghouls"),1]]; i++;
+talent[i] = [2, "Bone Shield", 1, 1, 8]; i++;
 talent[i] = [2, "Crypt Fever", 3, 2, 8]; i++;
-talent[i] = [2, "Bone Shield", 1, 3, 8]; i++;
+talent[i] = [2, "Improved Death Coil", 1, 3, 8, [getTalentID("Crypt Fever"),2]]; i++;
 talent[i] = [2, "Wandering Plague", 3, 1, 9]; i++;
 talent[i] = [2, "Ebon Plaguebringer", 3, 2, 9, [getTalentID("Crypt Fever"),3]]; i++;
 talent[i] = [2, "Scourge Strike", 1, 3, 9]; i++;
 talent[i] = [2, "Rage of Rivendare", 5, 2, 10]; i++;
+talent[i] = [2, "Commander of the Death", 1,1,11]; i++;
 talent[i] = [2, "Summon Gargoyle", 1, 2, 11]; i++;
 treeStartStop[t] = i -1;
 t++;
@@ -254,7 +260,11 @@ rank[i] = [
 		];
 i++;
 	
-
+//Custom
+rank[i] = [
+"Placeholder"
+];
+i++;
 //Bloodworms - Blood
 rank[i] = [
 "Your weapon hits have a 3% chance to cause the target to spawn 2-4 Bloodworms. Bloodworms attack your enemies, healing you as they do damage for 20 sec or until killed.",
@@ -318,7 +328,11 @@ rank[i] = [
 "Increases the critical strike damage bonus of your Blood Boil, Blood Strike, Death Strike, and Heart Strike abilities by 45%."
 		];
 i++;
-
+//Custom
+rank[i] = [
+	"Placeholder"
+	];
+	i++;
 //Blood Gorged - Blood
 rank[i] = [
 "When you are above 75% health, you deal 2% more damage. In addition, your attacks ignore up to 2% of your opponent's armor at all times.",
@@ -476,7 +490,11 @@ rank[i] = [
 "Increases the critical strike chance of your Icy Touch and Obliterate by 15% and casting Icy Touch has a 15% chance to cause your next Howling Blast to consume no runes."
 		];
 i++;
-
+//Custom
+rank[i] = [
+	"Placeholder"
+	];
+	i++;
 //Chilbrains - Frost
 rank[i] = [
 "Victims of your Frost Fever disease are Chilled, reducing movement speed by 15% for 10 sec.",
@@ -541,7 +559,11 @@ rank[i] = [
 "Increases the critical strike damage bonus of your Blood Strike, Frost Strike, Howling Blast and Obliterate abilities by 45%, and increases the duration of your Icebound Fortitude by 6 sec."
 		];
 i++;
-
+//Custom
+rank[i] = [
+	"Placeholder"
+	];
+	i++;
 //Tundra Stalker - Frost
 rank[i] = [
 "Your spells and abilities deal 3% more damage to targets infected with Frost Fever. Also increases your expertise by 1.",
@@ -744,6 +766,12 @@ rank[i] = [
 		];
 i++;
 
+//Bone Shield - Unholy
+rank[i] = [
+	"<span style=text-align:left;float:left;>1 Unholy<br></span><br><span style=text-align:left;float:left;>Instant<br></span><span style=text-align:right;float:right;>1 min cooldown</span><br>The Death Knight is surrounded by 3 whirling bones. While at least 1 bone remains, he takes 20% less damage from all sources and deals 2% more damage with all attacks, spells and abilities. Each damaging attack that lands consumes 1 bone. Lasts 5 min."
+			];
+	i++;
+
 //Crypt Fever - Unholy
 rank[i] = [
 "Your diseases also cause Crypt Fever, which increases disease damage taken by the target by 10%.",
@@ -752,11 +780,11 @@ rank[i] = [
 		];
 i++;
 
-//Bone Shield - Unholy
+//Custom
 rank[i] = [
-"<span style=text-align:left;float:left;>1 Unholy<br></span><br><span style=text-align:left;float:left;>Instant<br></span><span style=text-align:right;float:right;>1 min cooldown</span><br>The Death Knight is surrounded by 3 whirling bones. While at least 1 bone remains, he takes 20% less damage from all sources and deals 2% more damage with all attacks, spells and abilities. Each damaging attack that lands consumes 1 bone. Lasts 5 min."
-		];
-i++;
+	"Placeholder"
+	];
+	i++;
 
 //Wandering Plague - UNHOLY
 rank[i] = [
@@ -789,6 +817,12 @@ rank[i] = [
 "Your spells and abilities deal 10% more damage to targets infected with Blood Plague. Also increases your expertise by 5."
 		];
 i++;
+
+//Custom
+rank[i] = [
+	"Placeholder"
+	];
+	i++;
 
 //Summon Gargoyle - Unholy
 rank[i] = [

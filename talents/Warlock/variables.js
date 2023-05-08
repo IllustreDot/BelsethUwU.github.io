@@ -16,7 +16,7 @@ maxTierArray[2] = 1;
 
 var template = new Array();
 
-var levelMax = 80;
+var levelMax = 60;
 var levelMin = 10;
 var tierNum = 11;
 

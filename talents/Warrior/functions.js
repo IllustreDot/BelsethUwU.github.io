@@ -264,7 +264,7 @@ function checkRequiredTalent(talentID) {
 	if (reqTalent = talent[talentID][5]) {
 		reqTalentID = reqTalent[0];
 		reqTalentPoints = reqTalent[1];
-		if (rankTop[reqTalentID][0] != reqTalentPoints)
+		if (rankTop[reqTalentID][0] < reqTalentPoints)
 			return false;
 	}
 	return true;
