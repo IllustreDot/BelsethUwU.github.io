@@ -30,6 +30,7 @@ talent[i] = [0, "Murder", 2, 3, 6]; i++;
 talent[i] = [0, "Deadly Brew", 2, 1, 7]; i++;
 talent[i] = [0, "Overkill", 1, 2, 7]; i++;
 talent[i] = [0, "Deadened Nerves", 3, 3, 7]; i++;
+talent[i] = [0, "Leeching Scoundrel", 1,4,7,[getTalentID("Quick Recovery"),2]];i++;
 talent[i] = [0, "Focused Attacks", 3, 1, 8]; i++;
 talent[i] = [0, "Find Weakness", 3, 3, 8]; i++;
 talent[i] = [0, "Master Poisoner", 3, 1, 9]; i++;
@@ -37,6 +38,7 @@ talent[i] = [0, "Mutilate", 1, 2, 9, [getTalentID("Overkill"),1]]; i++;
 talent[i] = [0, "Turn the Tables", 3, 3, 9]; i++;
 talent[i] = [0, "Cut to the Chase", 5, 2, 10]; i++;
 talent[i] = [0, "Hunger For Blood", 1, 2, 11]; i++;
+talent[i] = [0, "Internal Bleeding", 1, 3,11];i++;
 
 treeStartStop[t] = i -1;
 t++;
@@ -57,8 +59,9 @@ talent[i] = [1, "Aggression", 5, 4, 4]; i++;
 talent[i] = [1, "Mace Specialization", 5, 1, 5]; i++;
 talent[i] = [1, "Blade Flurry", 1, 2, 5]; i++;
 talent[i] = [1, "Hack and Slash", 5, 3, 5]; i++;
+talent[i] = [1, "Blade Twisting", 2, 1, 6]; i++;
 talent[i] = [1, "Weapon Expertise", 2, 2, 6, [getTalentID("Blade Flurry"),1]]; i++;
-talent[i] = [1, "Blade Twisting", 2, 3, 6]; i++;
+talent[i] = [1, "Triple Threat", 1,3,6,[getTalentID("Weapon Expertise"),2]];i++;
 talent[i] = [1, "Vitality", 3, 1, 7]; i++;
 talent[i] = [1, "Adrenaline Rush", 1, 2, 7]; i++;
 talent[i] = [1, "Nerves of Steel", 2, 3, 7]; i++;
@@ -67,6 +70,7 @@ talent[i] = [1, "Combat Potency", 5, 3, 8]; i++;
 talent[i] = [1, "Unfair Advantage", 2, 1, 9]; i++;
 talent[i] = [1, "Surprise Attacks", 1, 2, 9, [getTalentID("Adrenaline Rush"),1]]; i++;
 talent[i] = [1, "Savage Combat", 2, 3, 9]; i++;
+talent[i] = [1, "Overwhelming Advantage", 1, 1, 10,[getTalentID("Unfair Advantage"),2]]; i++;
 talent[i] = [1, "Prey on the Weak", 5, 2, 10]; i++;
 talent[i] = [1, "Killing Spree", 1, 2, 11]; i++;
 
@@ -92,6 +96,7 @@ talent[i] = [2, "Dirty Deeds", 2, 3, 5]; i++;
 talent[i] = [2, "Hemorrhage", 1, 4, 5, [getTalentID("Serrated Blades"),3]]; i++;
 talent[i] = [2, "Master of Subtlety", 3, 1, 6]; i++;
 talent[i] = [2, "Deadliness", 5, 3, 6]; i++;
+talent[i] = [2, "Gloomblade", 1, 4, 6, [getTalentID("Hemorrhage"),1]]; i++;
 talent[i] = [2, "Enveloping Shadows", 3, 1, 7]; i++;
 talent[i] = [2, "Premeditation", 1, 2, 7, [getTalentID("Preparation"),1]]; i++;
 talent[i] = [2, "Cheat Death", 3, 3, 7]; i++;
@@ -101,6 +106,7 @@ talent[i] = [2, "Honor Among Thieves", 3, 1, 9]; i++;
 talent[i] = [2, "Shadowstep", 1, 2, 9]; i++;
 talent[i] = [2, "Filthy Tricks", 2, 3, 9]; i++;
 talent[i] = [2, "Slaughter from the Shadows", 5, 2, 10]; i++;
+talent[i] = [2, "Symbol of Death", 1,3,10,[getTalentID("Filthy Tricks"),2]];i++;
 talent[i] = [2, "Shadow Dance", 1, 2, 11]; i++;
 treeStartStop[t] = i -1;
 t++;
@@ -264,7 +270,11 @@ rank[i] = [
 "Reduces all damage taken by 6%."
 		];
 i++;	
-
+//Custom
+rank[i]=[
+	"Placeholder"
+];
+i++;
 //Focused Attacks - Assassination
 rank[i] = [
 "Your melee critical strikes have a 33% chance to give you 2 energy.",
@@ -317,6 +327,11 @@ i++;
 rank[i] = [
 "<span style=text-align:left;float:left;>15 Energy</span><span style=text-align:right;float:right;>30 yd range</span><br><span style=text-align:left;float:left;>Instant</span><br>Enrages you, increasing all damage caused by 5%. Requires a bleed effect to be active on the target. Lasts 1 min."
 		];
+i++;
+//Custom
+rank[i]=[
+	"Placeholder"
+];
 i++;
 
 
@@ -452,6 +467,13 @@ rank[i]=[
 		];
 i++;
 
+//Blade Twisting - Combat 
+rank[i]=[
+	"Increases the damage dealt by Sinister Strike and Backstab by 5% and your damaging melee attacks have a 10% chance to Daze the target for 4 sec.",
+	"Increases the damage dealt by Sinister Strike and Backstab by 10% and your damaging melee attacks have a 10% chance to Daze the target for 8 sec."
+	];
+	i++;
+
 //Weapon Expertise - Combat 
 rank[i]=[
 "Increases your expertise by 5.",
@@ -459,13 +481,11 @@ rank[i]=[
 		];
 i++;		
 
-//Blade Twisting - Combat 
+//Custom
 rank[i]=[
-"Increases the damage dealt by Sinister Strike and Backstab by 5% and your damaging melee attacks have a 10% chance to Daze the target for 4 sec.",
-"Increases the damage dealt by Sinister Strike and Backstab by 10% and your damaging melee attacks have a 10% chance to Daze the target for 8 sec."
+	"Placeholder"
 ];
-i++;	
-
+i++;
 //Vitality - Combat 
 rank[i]=[
 "Increases your Energy regeneration rate by 8%.",
@@ -523,7 +543,11 @@ rank[i]=[
 "Increases your total attack power by 4% and all physical damage caused to enemies you have poisoned is increased by 4%."
 		];
 i++;
-
+//Custom
+rank[i]=[
+	"Placeholder"
+];
+i++;
 //Prey on the Weak - Combat 
 rank[i]=[
 "Your critical strike damage is increased by 4% when the target has less health than you (as a percentage of total health).",
@@ -677,7 +701,11 @@ rank[i]=[
 "Increases your Attack Power by 10%."
 		];
 i++;		
-
+//Custom
+rank[i]=[
+	"Placeholder"
+];
+i++;
 //Enveloping Shadows - Subtlety
 rank[i]=[
 "Reduces the damage taken by area of effect attacks by 10%.",
@@ -747,7 +775,11 @@ rank[i]=[
 "Reduces the energy cost of your Backstab and Ambush abilities by 20 and the energy cost of your Hemorrhage by 5, and increases all damage done by 5%."
 		];
 i++;
-
+//Custom
+rank[i]=[
+	"Placeholder"
+];
+i++;
 //Shadow Dance - Subtlety 
 rank[i]=[
 "<span style=text-align:left;float:left;>Instant</span><span style=text-align:right;float:right;>1 min cooldown</span><br>Enter the Shadow Dance for 6 sec, allowing the use of Sap, Garrote, Ambush, Cheap Shot, Premeditation, Pickpocket and Disarm Trap regardless of being stealthed."
