@@ -14,7 +14,8 @@ talent[i] = [0, "Convection", 5, 2, 1]; i++;
 talent[i] = [0, "Concussion", 5, 3, 1]; i++;
 talent[i] = [0, "Call of Flame", 3, 1, 2]; i++;
 talent[i] = [0, "Elemental Warding", 3, 2, 2]; i++; 
-talent[i] = [0, "Elemental Devastation", 3, 3, 2]; i++;
+talent[i] = [0, "Ancestral Knowledge", 5, 3, 2]; i++;
+talent[i] = [0, "Elemental Blast",1,4,2,[getTalentID("Ancestral Knowledge"),2]]; i++;
 talent[i] = [0, "Reverberation", 5, 1, 3]; i++;
 talent[i] = [0, "Elemental Focus", 1, 2, 3]; i++;
 talent[i] = [0, "Elemental Fury", 5, 3, 3]; i++;
@@ -30,6 +31,7 @@ talent[i] = [0, "Storm, Earth and Fire", 3, 3, 7]; i++;
 talent[i] = [0, "Booming Echoes", 2, 1, 8]; i++;
 talent[i] = [0, "Elemental Oath", 2, 2, 8, [getTalentID("Elemental Mastery"),1]]; i++;
 talent[i] = [0, "Lightning Overload", 3, 3, 8]; i++;
+talent[i] = [0, "Earthquake", 1, 4,8,[getTalentID("Storm, Earth and Fire"),2]];i++;
 talent[i] = [0, "Astral Shift", 3, 1, 9]; i++;
 talent[i] = [0, "Totem of Wrath", 1, 2, 9]; i++;
 talent[i] = [0, "Lava Flows", 3, 3, 9]; i++;
@@ -42,7 +44,7 @@ t++;
 //enhancement talents
 talent[i] = [1, "Enhancing Totems", 3, 1, 1]; i++;
 talent[i] = [1, "Earth's Grasp", 2, 2, 1]; i++;
-talent[i] = [1, "Ancestral Knowledge", 5, 3, 1]; i++;
+talent[i] = [1, "Elemental Devastation", 3, 3, 1]; i++;
 talent[i] = [1, "Guardian Totems", 2, 1, 2]; i++;
 talent[i] = [1, "Thundering Strikes", 5, 2, 2]; i++;
 talent[i] = [1, "Improved Ghost Wolf", 2, 3, 2]; i++;
@@ -50,6 +52,7 @@ talent[i] = [1, "Improved Shields", 3, 4, 2]; i++;
 talent[i] = [1, "Elemental Weapons", 3, 1, 3]; i++;
 talent[i] = [1, "Shamanistic Focus", 1, 3, 3]; i++;
 talent[i] = [1, "Anticipation", 3, 4, 3]; i++;
+talent[i] = [1, "Master Enhancer", 1, 1, 4,[getTalentID("Elemental Weapons"),2]]; i++;
 talent[i] = [1, "Flurry", 5, 2, 4, [getTalentID("Thundering Strikes"),5]]; i++;
 talent[i] = [1, "Toughness", 5, 3, 4]; i++;
 talent[i] = [1, "Improved Windfury Totem", 2, 1, 5]; i++;
@@ -61,6 +64,7 @@ talent[i] = [1, "Frozen Power", 2, 4, 6]; i++;
 talent[i] = [1, "Dual Wield Specialization", 3, 1, 7, [i+1,1]]; i++;
 talent[i] = [1, "Dual Wield", 1, 2, 7, [getTalentID("Spirit Weapons"),1]]; i++;
 talent[i] = [1, "Stormstrike", 1, 3, 7]; i++;
+talent[i] = [1, "Crash Lightning", 1, 4, 7,[getTalentID("Stormstrike"),1]];i++;
 talent[i] = [1, "Static Shock", 3, 1, 8]; i++; 
 talent[i] = [1, "Lava Lash", 1, 2, 8, [getTalentID("Dual Wield"),1]]; i++;
 talent[i] = [1, "Improved Stormstrike", 2, 3, 8, [getTalentID("Stormstrike"),1]]; i++;
@@ -87,8 +91,9 @@ talent[i] = [2, "Restorative Totems", 3, 2, 4]; i++;
 talent[i] = [2, "Tidal Mastery", 5, 3, 4]; i++;
 talent[i] = [2, "Healing Way", 3, 1, 5]; i++;
 talent[i] = [2, "Nature's Swiftness", 1, 3, 5]; i++;
-talent[i] = [2, "Focused Mind", 3, 4, 5]; i++;
+talent[i] = [2, "Earth Shield", 1, 4,5,]; i++;
 talent[i] = [2, "Purification", 5, 3, 6]; i++;
+talent[i] = [2, "Improved Earth Shield", 2, 4, 6, [getTalentID("Earth Shield"),1]]; i++;
 talent[i] = [2, "Nature's Guardian", 5, 1, 7]; i++;
 talent[i] = [2, "Mana Tide Totem", 1, 2, 7, [getTalentID("Restorative Totems"),3]]; i++;
 talent[i] = [2, "Cleanse Spirit", 1, 3, 7, [getTalentID("Purification"),5]]; i++;
@@ -96,10 +101,11 @@ talent[i] = [2, "Blessing of the Eternals", 2, 1, 8]; i++;
 talent[i] = [2, "Improved Chain Heal", 2, 2, 8]; i++;
 talent[i] = [2, "Nature's Blessing", 3, 3, 8]; i++;
 talent[i] = [2, "Ancestral Awakening", 3, 1, 9]; i++;
-talent[i] = [2, "Earth Shield", 1, 2, 9,]; i++;
-talent[i] = [2, "Improved Earth Shield", 2, 3, 9, [getTalentID("Earth Shield"),1]]; i++;
+talent[i] = [2, "Focused Mind", 3, 2, 9]; i++;
+talent[i] = [2, "Totem Focus", 1, 3, 9, [getTalentID("Focused Mind"),1]]; i++;
 talent[i] = [2, "Tidal Waves", 5, 2, 10,]; i++;
 talent[i] = [2, "Riptide", 1, 2, 11]; i++;
+talent[i] = [2, "Healing Rain", 1, 3, 11]; i++;
 treeStartStop[t] = i -1;
 t++;
 
@@ -144,14 +150,20 @@ rank[i] = [
 		];
 i++;
 	
-//Elemental Devistation - Elemental 
+//Ancestral Knowledge - Elemental
 rank[i] = [
-"Your non-periodic offensive spell crits will increase your chance to get a critical strike with melee attacks by 3% for 10 sec.",
-"Your non-periodic offensive spell crits will increase your chance to get a critical strike with melee attacks by 6% for 10 sec.",
-"Your non-periodic offensive spell crits will increase your chance to get a critical strike with melee attacks by 9% for 10 sec."
-		];
+	"Increases your Intellect by 2%.",
+	"Increases your Intellect by 4%.",
+	"Increases your Intellect by 6%.",
+	"Increases your Intellect by 8%.",
+	"Increases your Intellect by 10%."
+			];
+	i++;		
+//Custom
+rank[i]=[
+	"Placeholder"
+];
 i++;
-
 //Reverberation - Elemental
 rank[i] = [
 "Reduces the cooldown of your Shock spells and Wind Shear by 0.2 sec.",
@@ -267,7 +279,11 @@ rank[i] = [
 "Gives your Lightning Bolt and Chain Lightning spells a 33% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
 		];
 i++;
-
+//Custom
+rank[i] =[
+	"Placeholder"
+];
+i++;
 //Astral Shift - Elemental
 rank[i] = [
 "When stunned, feared or silenced you shift into the Astral Plane reducing all damage taken by 10% for the duration of the stun, fear or silence effect.",
@@ -323,15 +339,13 @@ rank[i] = [
 		];
 i++;
 
-//Ancestral Knowledge - Enhancement
+//Elemental Devastation - Enhancement 
 rank[i] = [
-"Increases your Intellect by 2%.",
-"Increases your Intellect by 4%.",
-"Increases your Intellect by 6%.",
-"Increases your Intellect by 8%.",
-"Increases your Intellect by 10%."
-		];
-i++;		
+	"Your non-periodic offensive spell crits will increase your chance to get a critical strike with melee attacks by 3% for 10 sec.",
+	"Your non-periodic offensive spell crits will increase your chance to get a critical strike with melee attacks by 6% for 10 sec.",
+	"Your non-periodic offensive spell crits will increase your chance to get a critical strike with melee attacks by 9% for 10 sec."
+			];
+	i++;
 
 //Guardian Totems - Enhancement
 rank[i] = [
@@ -388,7 +402,11 @@ rank[i] = [
 "Increases your chance to dodge by an additional 3%, and reduces the duration of all Disarm effects used against you by 50%. This does not stack with other Disarm duration reducing effects."
 		];
 i++;		
-
+//Custom
+rank[i] =[
+	"Placeholder"
+];
+i++;
 //Flurry - Enhancement
 rank[i] = [
 "Increases your attack speed by 6% for your next 3 swings after dealing a critical strike.",
@@ -472,7 +490,11 @@ rank[i]=[
 "<span style=text-align:left;float:left;>8% of base mana</span><span style=text-align:right;float:right;>Melee Range</span><br><span style=text-align:left;float:left;>Instant cast</span><span style=text-align:right;float:right;>8 sec cooldown</span><br><span style=text-align:left;float:left;>Requires Melee Weapon</span><BR>Instantly attack with both weapons. In addition, the next 4 sources of Nature damage dealt to the target from the Shaman are increased by 20%. Lasts 12 sec."
 		];
 i++;
-
+//Custom
+rank[i] =[
+	"Placeholder"
+];
+i++;
 //Static Shock - Enhancement 
 rank[i] = [
 "You have a 2% chance to hit your target with a Lightning Shield Orb charge when you deal damage with melee attacks and abilities, and increases the number of charges of your Lightning Shield by 2.",
@@ -639,14 +661,11 @@ rank[i]=[
 "<span style=text-align:left;float:left;>Instant</span><span style=text-align:right;float:right;>2 min cooldown</span><br>When activated, your next Nature spell with a base casting time less than 10 sec. becomes an instant cast spell. Nature's Swiftness shares a cooldown with Elemental Mastery."
 		];
 i++;	
-
-//Focused Mind - Restoration  
+//Earth Shield - Restoration 
 rank[i]=[
-"Reduces the duration of any Silence or Interrupt effects used against the Shaman by 10%. This effect does not stack with other similar effects.",
-"Reduces the duration of any Silence or Interrupt effects used against the Shaman by 20%. This effect does not stack with other similar effects.",
-"Reduces the duration of any Silence or Interrupt effects used against the Shaman by 30%. This effect does not stack with other similar effects."
-		];
-i++;	
+	"<span style=text-align:left;float:left;>15% of base mana</span><span style=text-align:right;float:right;>40 yd range</span><br>Instant Cast<br>Protects the target with an earthen shield, reducing casting or channeling time lost when damaged by 30% and causing attacks to heal the shielded target for 150. This effect can only occur once every few seconds. 6 charges. Lasts 10 min. Earth Shield can only be placed on one target at a time and only one Elemental Shield can be active on a target at a time."
+			];
+	i++;
 
 //Purification - Restoration  
 rank[i]=[
@@ -657,7 +676,12 @@ rank[i]=[
 "Increases the effectiveness of your healing spells by 10%."
 		];
 i++;
-
+//Improved Earth Shield - Restoration  
+rank[i]=[
+	"Increases the amount of charges for your Earth Shield by 1, and increases the healing done by your Earth Shield by 5%.",
+	"Increases the amount of charges for your Earth Shield by 2, and increases the healing done by your Earth Shield by 10%."
+			];
+	i++;
 //Nature's Guardian - Restoration  
 rank[i]=[
 "Whenever a damaging attack brings you below 30% health, your maximum health is increased by 3% for 10 sec and your threat level towards the attacker is reduced. 30 second cooldown.",
@@ -710,18 +734,19 @@ rank[i]=[
 		];
 i++;		
 
-//Earth Shield - Restoration 
+//Focused Mind - Restoration  
 rank[i]=[
-"<span style=text-align:left;float:left;>15% of base mana</span><span style=text-align:right;float:right;>40 yd range</span><br>Instant Cast<br>Protects the target with an earthen shield, reducing casting or channeling time lost when damaged by 30% and causing attacks to heal the shielded target for 150. This effect can only occur once every few seconds. 6 charges. Lasts 10 min. Earth Shield can only be placed on one target at a time and only one Elemental Shield can be active on a target at a time."
-		];
-i++;
+	"Reduces the duration of any Silence or Interrupt effects used against the Shaman by 10%. This effect does not stack with other similar effects.",
+	"Reduces the duration of any Silence or Interrupt effects used against the Shaman by 20%. This effect does not stack with other similar effects.",
+	"Reduces the duration of any Silence or Interrupt effects used against the Shaman by 30%. This effect does not stack with other similar effects."
+			];
+	i++;
 
-//Improved Earth Shield - Restoration  
+//Custom
 rank[i]=[
-"Increases the amount of charges for your Earth Shield by 1, and increases the healing done by your Earth Shield by 5%.",
-"Increases the amount of charges for your Earth Shield by 2, and increases the healing done by your Earth Shield by 10%."
-		];
-i++;	
+	"Placeholder"
+];
+i++;
 
 //Tidal Waves - Restoration
 rank[i]=[
@@ -738,6 +763,10 @@ rank[i]=[
 "<span style=text-align:left;float:left;>18% of base mana</span><span style=text-align:right;float:right;>40 yd range</span><br><span style=text-align:left;float:left;>Instant cast</span><span style=text-align:right;float:right;>6 sec cooldown</span><br>Heals a friendly target for 639 to 691 and another 665 over 15 sec. Your next Chain Heal cast on that primary target within 15 sec will consume the healing over time effect and increase the amount of the Chain Heal by 25%."
 		];
 i++;
-
+//Healing Rain - Restoration 
+rank[i]=[
+	"Placeholder"
+];
+i++;
 //Restoration Talents End^^
 

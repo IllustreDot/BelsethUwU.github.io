@@ -64,7 +64,7 @@ talent[i] = [1, "Frigid Dreadplate", 3, 2, 5]; i++;
 talent[i] = [1, "Glacier Rot", 3, 3, 5]; i++;
 talent[i] = [1, "Deathchill", 1, 4, 5]; i++;
 talent[i] = [1, "Improved Icy Talons", 1, 1, 6, [getTalentID("Icy Talons"),5]]; i++;
-talent[i] = [1, "Merciless Combat", 2, 2, 6]; i++
+talent[i] = [1, "Merciless Combat", 2, 2, 6]; i++;
 talent[i] = [1, "Rime", 3, 3, 6]; i++;
 talent[i] = [1, "Absolute Zero",1,4,6, [getTalentID("Rime"),2]];i++;
 talent[i] = [1, "Chilblains", 3, 1, 7]; i++;
@@ -76,7 +76,7 @@ talent[i] = [1, "Unbreakable Armor", 1, 3, 8]; i++;
 talent[i] = [1, "Acclimation", 3, 1, 9]; i++;
 talent[i] = [1, "Frost Strike", 1, 2, 9]; i++;
 talent[i] = [1, "Guile of Gorefiend", 3, 3, 9]; i++;
-talent[i] = [1, "Shattering Cold"], 1,4,9,[getTalentID("Guile of Gorefiend"),2]; i++;
+talent[i] = [1, "Shattering Cold", 1,4,9,[getTalentID("Guile of Gorefiend"),2]]; i++;
 talent[i] = [1, "Tundra Stalker", 5, 2, 10]; i++;
 talent[i] = [1, "Howling Blast", 1, 2, 11]; i++;
 treeStartStop[t] = i -1;
@@ -130,7 +130,6 @@ rank[i] = [
 "Whenever you kill an enemy that grants experience or honor, you generate up to 20 runic power. In addition, you generate 2 runic power per 5 sec. while in combat."
 		];
 i++;	
-//Blood Talents End
 
 //SUBVERSION - BLOOD
 rank[i] = [
