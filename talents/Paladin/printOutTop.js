@@ -326,7 +326,7 @@ massiveReplaceString += "</table>";
 
 massiveReplaceString += '<img src = "'+ pixelGif +'" height = "10" width = "300">';
 
-massiveReplaceString += '<table border = "0" cellpadding = "0" cellspacing = "0" width = "100%"><tr><td width = "100%"><a onClick = "printableVersion();" style="cursor:pointer"><img src = "'+ imgPath +'/includes/images/printableversion.png" border = "0"></a></td>';
+massiveReplaceString += '<table border = "0" cellpadding = "0" cellspacing = "0" width = "100%"><tr><td width = "100%"></td>';
 
 massiveReplaceString += '<td><a href = #none onClick=resetTreeAll()><img src = \"'+ imgPath +'/includes/images/resetall.png\" border = 0></a></td>';
 

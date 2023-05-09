@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+}
+
+a img {
+    border: none;
+    text-align: center;
+}
+
+.main {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #30384c;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex div {
+    flex-basis: 20%;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+footer p {
+    font-weight: bold;
+    color: #ccc;
+}

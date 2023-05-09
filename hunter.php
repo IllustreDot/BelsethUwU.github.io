@@ -1,16 +1,15 @@
 <html>
 <head>
-<title>CraftedRO | Hunter Talents</title>
+<title>Duskhaven | Hunter Talents</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="talents/Hunter/talent.css" type="text/css" rel="stylesheet">
 <link rel="shortcut icon" href="images/favicon.ico">
 </head>
-<body style="background-color:#30384c">
 <body text="#FFFFFF" vlink="#45ACF6" link="#45ACF6" bgcolor="black" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
-<br>
 <center>
-<a href="./index.html" title="Home"><img src="images/logo.png" alt="logo" style="width: 25%;"></a>
-<br>
+<div class="main">
+<a href="./index.html" title="Home"><img src="images/logo.png" alt="logo" style="width: 45%;"></a>
+<br><br>
 <div>
 <a href="deathknight.php"><img src="../talents/class-images/class/deathknight.jpg"></a>
 <a href="druid.php"><img src="../talents/class-images/class/druid.jpg"></a>
@@ -40,5 +39,6 @@ var theURLtoCopy = "<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_
 <script type="text/javascript" src="talents/Hunter/localize.js"></script>
 <script type="text/javascript" src="talents/Hunter/arraysFill.js"></script>
 <script type="text/javascript" src="talents/Hunter/printOutTop.js"></script>
+</div>
 </body>
 </html>
