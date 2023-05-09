@@ -170,7 +170,7 @@ rank[i] = [
 i++;		
 //Diverted Energy - Arcane
 rank[i] = [
-"Placeholder"
+"Each time Clearcasting triggers your Mana regeneration is increased greatly for 3 seconds afterwards."
 ];
 i++;
 //Magic Attunement - Arcane
@@ -301,7 +301,7 @@ rank[i]=[
 i++;
 //Improved Mana Shield - Arcane
 rank[i]=[
-"Placeholder"
+"While Mana Shield is active your Intellect is increased by 10%"
 ];
 i++;
 //Arcane Flows - Arcane 
@@ -484,7 +484,7 @@ rank[i] = [
 i++;		
 //Volatile Detonation - Fire
 rank[i] = [
-"Placeholder"
+"Blast Wave now causes all affected enemies to burn over 6 seconds and grants you Hot Streak."
 ];
 i++;
 //Blazing Speed - Fire	
@@ -542,7 +542,7 @@ i++;
 
 //Master of flames - Fire
 rank[i] = [
-"Placeholder"
+"Dragon's Breath no longer disorients enemies, instead it causes enemies to explode for massive damage and grants you the Blazing Aura effect. Reduces your generated threat by 20%"
 ];
 i++;
 
@@ -689,7 +689,7 @@ rank[i]=[
 i++;
 //Snowstorm - Frost
 rank[i]=[
-"Placeholder"
+"Blizzard can now be cancelled early to deal 25% of its original damage at your position over its duration without the need to channel the spell. "
 ];
 i++;
 //Cold Snap - Frost
@@ -805,7 +805,7 @@ rank[i]=[
 i++;
 //Glacial Spike - Frost
 rank[i]=[
-"Placeholder"
+"<span style=text-align:left;float:left;>idk% of base mana</span><span style=text-align:right;float:right;>25 yd range</span><br><span style=text-align:left;float:left;>Instant cast</span><span style=text-align:right;float:right;>25 sec cooldown</span><br>Fires a massive Glacial Spike which hits up to 2 enemies infront of you.<br>"
 ];
 i++;		
 //Frost Talents End^^
