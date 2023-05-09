@@ -157,8 +157,9 @@ rank[i] = [
 "Reduces the duration of all Fear and Disorient effects by 30%."
 		];
 i++;
+//Freedom Fighter - Holy
 rank[i]=[
-	"Placeholder"
+	"Reduces the duration of stuns by 20% and your Hand of Freedom increases your movement speed by 50% for 4 seconds."
 	];
 	i++;
 //Aura Mastery - Retribution 
@@ -282,8 +283,9 @@ rank[i] = [
 "Increases your spell power by 20% of your total Intellect."
 		];
 i++;
+//Blessed Defense - Holy
 rank[i]=[
-	"Placeholder"
+	"The target of Beacon of Light now also takes 5% reduced damage and their resistances are increased by 35."
 	];
 	i++;
 //Divine Illumination - Holy			
@@ -432,8 +434,9 @@ rank[i] = [
 "Gives you a 10% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."						
 		];
 i++;
+//Glory of the Dawn - Protection
 rank[i]=[
-	"Placeholder"
+	"<span style=text-align:left;float:left;>Instant</span><span style=text-align:right;float:right;>1.25 min cooldown</span><br>Increases your Haste by 10% and reduces damage taken by 6% for 15 seconds. Can only be used while atleast 1 Stack of Holy Power is active."
 	];
 	i++;
 //Sacred Duty - Protection
@@ -640,8 +643,9 @@ rank[i] = [
 "Increases the damage caused by Retribution Aura by 50% and all damage caused by friendly targets affected by any of your Auras is increased by 3%."
 		];
 i++;
+//Sanctified Consecration - Retribution
 rank[i]=[
-"Placeholder"
+"Your Consecration is now additionally radiating for 20% additional damage."
 ];
 i++;
 //Vengeance - Retribution
@@ -724,8 +728,9 @@ rank[i]=[
 "When your Judgement and Divine Storm spells deal a critical strike, your target will take 30% additional damage over 8 sec.",
 		];
 i++;
+//Divine Devotion - Retribution
 rank[i]=[
-"Placeholder"
+"Your Crusader Strike deals 25% additional damage as holy damage while Righteous Vengeance is active."
 ];
 i++;
 //Divine Storm - Retribution
