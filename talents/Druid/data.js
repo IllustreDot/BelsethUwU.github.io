@@ -36,6 +36,7 @@ talent[i] = [0, "Eclipse", 3, 1, 9]; i++;
 talent[i] = [0, "Typhoon", 1, 2, 9, [getTalentID("Moonkin Form"),1]]; i++;
 talent[i] = [0, "Force of Nature", 1, 3, 9]; i++;
 talent[i] = [0, "Gale Winds", 2, 4, 9]; i++;
+talent[i] = [0, "Fury of Elune", 1, 1, 10, [getTalentID("Eclipse"),1]]; i++;
 talent[i] = [0, "Earth and Moon", 3, 2, 10]; i++;
 talent[i] = [0, "Starfall", 1, 2, 11]; i++;
 treeStartStop[t] = i -1;
@@ -47,6 +48,7 @@ talent[i] = [1, "Feral Aggression", 5, 3, 1]; i++;
 talent[i] = [1, "Feral Instinct", 3, 1, 2]; i++;
 talent[i] = [1, "Savage Fury", 2, 2, 2]; i++;
 talent[i] = [1, "Thick Hide", 3, 3, 2]; i++;
+talent[i] = [1, "Ursoc's ferocity",1,4,2]; i++;
 talent[i] = [1, "Feral Swiftness", 2, 1, 3]; i++;
 talent[i] = [1, "Survival Instincts", 1, 2, 3]; i++;
 talent[i] = [1, "Sharpened Claws", 3, 3, 3]; i++;
@@ -69,6 +71,7 @@ talent[i] = [1, "Infected Wounds", 3, 4, 8]; i++;
 talent[i] = [1, "King of the Jungle", 3, 1, 9]; i++;
 talent[i] = [1, "Mangle", 1, 2, 9, [getTalentID("Leader of the Pack"),1]]; i++;
 talent[i] = [1, "Improved Mangle", 3, 3, 9, [getTalentID("Mangle"),1]]; i++;
+talent[i] = [1, "Predator's Craving", 1,1,10,[getTalentID("King of the Jungle"),2]];i++;
 talent[i] = [1, "Rend and Tear", 5, 2, 10]; i++;
 talent[i] = [1, "Primal Gore", 1, 3, 10, [getTalentID("Rend and Tear"),5]]; i++;
 talent[i] = [1, "Berserk", 1, 2, 11]; i++;
@@ -97,9 +100,11 @@ talent[i] = [2, "Swiftmend", 1, 2, 7, [getTalentID("Gift of Nature"),5]]; i++;
 talent[i] = [2, "Natural Perfection", 3, 3, 7]; i++;
 talent[i] = [2, "Empowered Rejuvenation", 5, 2, 8]; i++;
 talent[i] = [2, "Living Seed", 3, 3, 8]; i++;
+talent[i] = [2, "Dreamgrove's Blessing", 1, 4,8,[getTalentID("Natural Perfection"),2]];i++;
 talent[i] = [2, "Replenish", 3, 1, 9]; i++;
 talent[i] = [2, "Tree of Life", 1, 2, 9, [getTalentID("Empowered Rejuvenation"),5]]; i++;
 talent[i] = [2, "Improved Tree of Life", 3, 3, 9, [getTalentID("Tree of Life"),1]]; i++;
+talent[i] = [2, "Ent's Touch", 1,4,9,[getTalentID("Improved Tree of Life"),2]];i++;
 talent[i] = [2, "Improved Barkskin", 2, 1, 10]; i++;
 talent[i] = [2, "Gift of the Earthmother", 5, 3, 10]; i++;
 talent[i] = [2, "Wild Growth", 1, 2, 11, [getTalentID("Tree of Life"),1]]; i++;
@@ -319,7 +324,11 @@ rank[i] = [
 "Increases damage done by your Hurricane and Typhoon spells by 30%, and increases the range of your Cyclone spell by 4 yards."
 		];
 i++;
-
+//custom
+rank[i] =[
+	"Placeholder"
+];
+i++;
 //Earth and Moon - Balance
 rank[i] = [
 "Your Wrath and Starfire spells have a 100% chance to apply the Earth and Moon effect, which increases spell damage taken by 4% for 12 sec. Also increases your spell damage by 2%.",
@@ -381,7 +390,11 @@ rank[i] = [
 "Increases your Armor contribution from cloth and leather items by 10%."
 		];		
 i++;		
-
+//custom
+rank[i] =[
+	"Placeholder"
+];
+i++;
 //Feral Swiftness - Feral
 rank[i] = [
 "Increases your movement speed by 15% in Cat Form and increases your chance to dodge while in Cat Form, Bear Form and Dire Bear Form by 2%.",
@@ -545,7 +558,11 @@ rank[i] = [
 "Reduces the cooldown of your Mangle (Bear) ability by 1.5 sec., and reduces the energy cost of your Mangle (Cat) ability by 6."
 		];
 i++;
-
+//custom
+rank[i] =[
+	"Placeholder"
+];
+i++;
 //Rend and Tear - Feral
 rank[i] = [
 "Increases damage done by your Maul and Shred attacks on bleeding targets by 4%, and increases the critical strike chance of your Ferocious Bite ability on bleeding targets by 5%.",
@@ -740,7 +757,11 @@ rank[i]=[
 "When you critically heal your target with Swiftmend, Regrowth, Nourish or Healing Touch spell you have a 100% chance to plant a Living Seed on the target for 30% of the amount healed. The Living Seed will bloom when the target is next attacked. Lasts 15 sec."	
 ];
 i++;
-
+//custom
+rank[i] =[
+	"Placeholder"
+];
+i++;
 //REPLENISH - Restoration 
 rank[i]=[
 "Your Rejuvenation spell has a 5% chance to restore 8 Energy, 4 Rage, 1% Mana or 16 Runic Power per tick.",
@@ -762,7 +783,11 @@ rank[i]=[
 "Increases your armor contribution from items while in Tree of Life Form by 200%, and increases your healing spell power by 15% of your spirit while in Tree of Life Form."
 		];
 i++;
-
+//custom
+rank[i] =[
+	"Placeholder"
+];
+i++;
 //Improved Barkskin - Restoration 
 rank[i]=[
 "Grants 80% additional armor contribution from cloth and leather items while in Travel Form or while not shapeshifted, increases the damage reduction granted by your Barkskin spell by 5% and reduces the chance your Barkskin is dispelled by 35%.",
