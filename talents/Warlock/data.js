@@ -190,9 +190,9 @@ rank[i] = [
 "Reduces the global cooldown of your Curses by 0.5 sec."
 		];
 i++;		
-// Custom 
+//Improved Curse - Affliction 
 rank[i] = [
-"Placeholder"
+"Your Curses now reduces your target's haste by 5% while increasing yours by 5%. Can not be stacked."
 ];
 i++;
 //Grim Reach - Affliction
@@ -294,9 +294,9 @@ rank[i] = [
 "Increases your spell damage by 3%, and increases the periodic critical strike chance of your Corruption and Unstable Affliction spells by 9%."
 		];
 i++;
-// Custom 
+//Void Drain - Affliction 
 rank[i] = [
-	"Placeholder"
+	"<span style=text-align:left;float:left;>idk% of base mana</span><br>1.5 sec cast<span style=text-align:right;float:right;>2 min cooldown</span><br>Drains the health of all enemies in a 30 yard radius, temporarily increasing the Warlocks Damage per Stack. Movement cancels this Spell."
 	];
 	i++;
 //Death's Embrace - Affliction
@@ -465,9 +465,9 @@ rank[i] = [
 "Increases the duration of your Immolate by 9 sec, and you have a 12% chance to gain the Molten Core effect when your Corruption deals damage. The Molten Core effect empowers your next 3 Incinerate or Soul Fire spells cast within 15 sec.<br><br>Incinerate - Increases damage done by 18% and reduces cast time by 30%.<br><br>Soul Fire - Increases damage done by 18% and increases critical strike chance by 15%."
 		];
 i++;
-// Custom 
+//Demonic Core - Demonology 
 rank[i] = [
-	"Placeholder"
+	"When Molten Core triggers you and your Demon deal 5% additional Damage for 12 seconds."
 	];
 	i++;
 //Demonic Resilience - Demonology 
@@ -508,9 +508,9 @@ rank[i]=[
 "When you Shadowbolt, Incinerate or Soul Fire a target that is at or below 35% health, the cast time of Soul Fire spell is reduced by 40% for 10 sec. Soul Fires cast under the effect of Decimation cost no shard."
 		];
 i++;	
-// Custom 
+//Imp Gang - Demonology 
 rank[i] = [
-	"Placeholder"
+	"Soul Fire now always summons an Imp from the Twisting Nether which will assist you for 12 seconds. Imp Gang is also triggered from Molten Core procs."
 	];
 	i++;
 //Improved Demonic Tactics - Demonology
@@ -663,9 +663,9 @@ rank[i]=[
 "Increases the critical strike chance of your Destruction spells by 5%."
 		];
 i++;
-// Custom 
+//Power Overwhelming - Destruction 
 rank[i] = [
-	"Placeholder"
+	"Searing Pain increases your crit rating by 3% for 10 seconds."
 	];
 	i++;
 //Nether Protection - Destruction 
@@ -746,9 +746,9 @@ rank[i]=[
 "Increases the damage done by your Imp by 30%, and all critical hits done by your Imp have a 100% chance to increase your spell critical hit chance for your next spell by 20%. This effect lasts 8 sec."
 		];
 i++;
-// Custom 
+//Infernal Felfire - Destruction 
 rank[i] = [
-	"Placeholder"
+	"When you gain Backdraft your Spells are enhanced with Felfire, causing each cast which is affected by. Backdraft to deal 5% increased critical strike damage."
 	];
 	i++;
 //Fire and Brimstone - Destruction 
