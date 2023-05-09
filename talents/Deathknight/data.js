@@ -259,9 +259,9 @@ rank[i] = [
 		];
 i++;
 	
-//Custom
+//Tombstone - Blood
 rank[i] = [
-"Placeholder"
+"Death Strike causes you to absorb damage."
 ];
 i++;
 //Bloodworms - Blood
@@ -327,11 +327,11 @@ rank[i] = [
 "Increases the critical strike damage bonus of your Blood Boil, Blood Strike, Death Strike, and Heart Strike abilities by 45%."
 		];
 i++;
-//Custom
+//Blood Feast - Blood
 rank[i] = [
-	"Placeholder"
-	];
-	i++;
+	"Your Rune Tap, Vampiric Blood and Icebound Fortitude now summons a Bloated Bloodworm which explodes after 3 seconds, damaging enemies and healing nearby allies by 5% of their Health."
+];
+i++;
 //Blood Gorged - Blood
 rank[i] = [
 "When you are above 75% health, you deal 2% more damage. In addition, your attacks ignore up to 2% of your opponent's armor at all times.",
@@ -489,9 +489,9 @@ rank[i] = [
 "Increases the critical strike chance of your Icy Touch and Obliterate by 15% and casting Icy Touch has a 15% chance to cause your next Howling Blast to consume no runes."
 		];
 i++;
-//Custom
+//Absolute Zero - Frost
 rank[i] = [
-	"Placeholder"
+	"Whenever Rime is active, your Howling Blast additionally freezes enemies for 1.5 seconds."
 	];
 	i++;
 //Chilbrains - Frost
@@ -558,9 +558,9 @@ rank[i] = [
 "Increases the critical strike damage bonus of your Blood Strike, Frost Strike, Howling Blast and Obliterate abilities by 45%, and increases the duration of your Icebound Fortitude by 6 sec."
 		];
 i++;
-//Custom
+//Shatttering Cold - Frost
 rank[i] = [
-	"Placeholder"
+	"Consuming Killing Machine or Deathchill grants you 2% increased Frost Damage for 8 seconds, stackable up to 3 times."
 	];
 	i++;
 //Tundra Stalker - Frost
@@ -779,9 +779,9 @@ rank[i] = [
 		];
 i++;
 
-//Custom
+//Improved Death Coil - Unholy
 rank[i] = [
-	"Placeholder"
+	"Your Death Coil now hits 1 additional time for increased damage after casting Death and Decay for 10 seconds."
 	];
 	i++;
 
@@ -817,9 +817,9 @@ rank[i] = [
 		];
 i++;
 
-//Custom
+//Commander of the Death - Unholy
 rank[i] = [
-	"Placeholder"
+	"Each time you cast Death Coil and Death and Decay you will summon an Army of the Dead ghoul for 8 seconds."
 	];
 	i++;
 
