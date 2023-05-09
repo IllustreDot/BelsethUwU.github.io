@@ -270,9 +270,9 @@ rank[i] = [
 "Reduces all damage taken by 6%."
 		];
 i++;	
-//Custom
+//Leechin Scoundrel - Assasination
 rank[i]=[
-	"Placeholder"
+	"Your Deadly Poison causes you to generate 1% Health per application and reduces all Damage dealt by the target by 3%."
 ];
 i++;
 //Focused Attacks - Assassination
@@ -328,9 +328,9 @@ rank[i] = [
 "<span style=text-align:left;float:left;>15 Energy</span><span style=text-align:right;float:right;>30 yd range</span><br><span style=text-align:left;float:left;>Instant</span><br>Enrages you, increasing all damage caused by 5%. Requires a bleed effect to be active on the target. Lasts 1 min."
 		];
 i++;
-//Custom
+//Internal Bleeding - Assassination
 rank[i]=[
-	"Placeholder"
+	"Mutilate causes targets to take 5% increased bleed Damage for 12 seconds and deals an additional 65% Damage as bleed Damage over 3 seconds."
 ];
 i++;
 
@@ -481,9 +481,9 @@ rank[i]=[
 		];
 i++;		
 
-//Custom
+//Triple Threat - Combat
 rank[i]=[
-	"Placeholder"
+	"Sinister Strike now strikes a second time for 15% additional Damage with your off-hand Weapon."
 ];
 i++;
 //Vitality - Combat 
@@ -543,9 +543,9 @@ rank[i]=[
 "Increases your total attack power by 4% and all physical damage caused to enemies you have poisoned is increased by 4%."
 		];
 i++;
-//Custom
+//Overwhelming Advantage - Combat
 rank[i]=[
-	"Placeholder"
+	"While Slice and Dice is active you deal 5% increased critical strike Damage."
 ];
 i++;
 //Prey on the Weak - Combat 
@@ -701,9 +701,9 @@ rank[i]=[
 "Increases your Attack Power by 10%."
 		];
 i++;		
-//Custom
+//Gloomblade - Subtlety
 rank[i]=[
-	"Placeholder"
+	"Your Hemorrhage is transformed into Gloomblade, causing it to strike a second time for 15% additional Shadow Damage which bypasses all Armor. Enemies hit by Gloomblade have a 5% increased chance to be critically hit by shadow abilities for 10 seconds."
 ];
 i++;
 //Enveloping Shadows - Subtlety
@@ -775,9 +775,9 @@ rank[i]=[
 "Reduces the energy cost of your Backstab and Ambush abilities by 20 and the energy cost of your Hemorrhage by 5, and increases all damage done by 5%."
 		];
 i++;
-//Custom
+// Symbols of Death - Subtlety
 rank[i]=[
-	"Placeholder"
+	"Shadowstep causes all your melee attacks to deal an additional 20% damage as shadow damage for 10 seconds. You generate 25% more Energy and Gloom blade, Backstab and Ambush generate 3 Energy while active."
 ];
 i++;
 //Shadow Dance - Subtlety 
