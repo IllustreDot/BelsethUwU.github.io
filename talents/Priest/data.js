@@ -39,6 +39,7 @@ talent[i] = [0, "Divine Aegis", 3, 1, 9]; i++;
 talent[i] = [0, "Pain Suppression", 1, 2, 9]; i++;
 talent[i] = [0, "Grace", 2, 3, 9]; i++;
 talent[i] = [0, "Borrowed Time", 5, 2, 10]; i++;
+talent[i] = [0, "Glory of the Monastery", 1, 1, 11]; i++;
 talent[i] = [0, "Penance", 1, 2, 11]; i++;
 treeStartStop[t] = i -1;
 t++;
@@ -72,6 +73,7 @@ talent[i] = [1, "Circle of Healing", 1, 2, 9]; i++;
 talent[i] = [1, "Test of Faith", 3, 3, 9]; i++; 
 talent[i] = [1, "Divine Providence", 5, 2, 10]; i++; 
 talent[i] = [1, "Guardian Spirit", 1, 2, 11]; i++; 
+talent[i] = [1, "Watchful Val'kyr", 1, 3, 11]; i++;
 treeStartStop[t] = i -1;
 t++;
 
@@ -248,7 +250,7 @@ rank[i] = [
 i++;		
 //Improved Firestorm Kick - Discipline
 rank[i] = [
-"Placeholder"
+"After using Firestorm Kick your hands are lit ablaze for 6 seconds afterwards, dealing extra fire damage in a 5 yard radius."
 ];
 i++;
 //Focused Will - Discipline		
@@ -297,7 +299,7 @@ rank[i] = [
 i++;
 //Scarlet Will - Discipline
 rank[i] = [
-"Placeholder"
+"You have found ways to further combine the teachings of the Monastery with the Light.<br/><br/>Power Infusion now also increases your haste by 15%<br/><br/>Inner Focus causes your next Fist of the Tiger to grant you 10% increased critical strike damage for 20 seconds.<br/><br/>Your Power Word: Shield now always grants you a lesser version of Pain Supression which reduces all damage taken by 5% while the shield is active.<br/><br/>Triggering Chi Bolt now always grants you 10% Dodge chance for 4 seconds. (Only as Tank)"
 ];
 i++;
 
@@ -331,6 +333,12 @@ rank[i] = [
 "Grants 25% spell haste for your next spell after casting Power Word: Shield, and increases the amount absorbed by your Power Word: Shield equal to 40% of your spell power."
 		];
 i++;
+
+//Glory of the Monastery - Discipline
+rank[i]=[
+	"<span style=text-align:left;float:left;>Instant</span><span style=text-align:right;float:right;>3 min cooldown</span><br>Enter an elevated state of mental and physical serenity for 12 sec. While in this state, you deal 15% increased damage and gain 15% increased health."
+			];
+	i++;
 
 //Penance - Discipline
 rank[i]=[
@@ -496,7 +504,7 @@ i++;
 
 //Light's Promise - Holy
 rank[i] = [
-"Placeholder"
+"You are unable to be critically hit for 3 seconds after entering Lightform, and you deal 3% additional Healing and Damage while inside Lightform."
 ];
 i++;
 
@@ -562,6 +570,11 @@ i++;
 rank[i] = [
 "<span style=text-align:left;float:left;>6% of base mana</span><span style=text-align:right;float:right;>40 yd range</span><br><span style=text-align:left;float:left;>Instant cast</span><span style=text-align:right;float:right;>3 min cooldown</span><br>Calls upon a guardian spirit to watch over the friendly target. The spirit increases the healing received by the target by 40%, and also prevents the target from dying by sacrificing itself. This sacrifice terminates the effect but heals the target of 50% of their maximum health. Lasts 10 sec."
 		];
+i++;
+//Watchful Val'kyr - Holy
+rank[i] = [
+	"<br><span style=text-align:left;float:left;>Instant</span><span style=text-align:right;float:right;>3 min cooldown</span><br>Call upon a Val'kyr to smite your enemies. Lasts 30 seconds."
+];
 i++;
 	
 //SHADOW TALENTS---------------------------------------------------------------->	
@@ -703,7 +716,7 @@ rank[i]=[
 i++;		
 //Shadowy Tome - Shadow
 rank[i]=[
-"Placeholder"
+"Reduces the channel duration by 0.15 sec and period by 0.04 sec on your Mind Flay spell."
 ];
 i++;
 //Shadow Form - Shadoow
@@ -759,7 +772,7 @@ i++;
 
 //Searing Nightmare - Shadow
 rank[i]=[
-"Placeholder"
+"Your Mind Sear now also afflicts all targets with a weakened version of Shadow Word: Pain."
 ];
 i++;
 

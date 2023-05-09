@@ -39,6 +39,7 @@ nltalent[i] = ["Divine Aegis"]; i++;
 nltalent[i] = ["Pain Suppression"]; i++;
 nltalent[i] = ["Grace"]; i++;
 nltalent[i] = ["Borrowed Time"]; i++;
+nltalent[i] = ["Glory of the Monastery"];i++;
 nltalent[i] = ["Penance"]; i++;
 
 treeStartStop[t] = i -1;
@@ -74,6 +75,7 @@ nltalent[i] = ["Circle of Healing"]; i++;
 nltalent[i] = ["Test of Faith"]; i++;
 nltalent[i] = ["Divine Providence"]; i++;
 nltalent[i] = ["Guardian Spirit"]; i++;
+nltalent[i] = ["Watchful Val'kyr"]; i++;
 treeStartStop[t] = i -1;
 t++;
 
