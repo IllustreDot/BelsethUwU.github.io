@@ -324,9 +324,9 @@ rank[i] = [
 "Increases damage done by your Hurricane and Typhoon spells by 30%, and increases the range of your Cyclone spell by 4 yards."
 		];
 i++;
-//custom
+//Fury Of Elune - Balance
 rank[i] =[
-	"Placeholder"
+	"While your Starfire is empowered by Eclipse it will call down a Stellar Flare upon your Enemy, dealing Damage."
 ];
 i++;
 //Earth and Moon - Balance
@@ -390,9 +390,9 @@ rank[i] = [
 "Increases your Armor contribution from cloth and leather items by 10%."
 		];		
 i++;		
-//custom
+//Ursoc's ferocity - Feral
 rank[i] =[
-	"Placeholder"
+	"Heals you for 3% Health every 3.5 seconds while in Bear Form. Your maximum Energy is increased by 20 while in Cat Form."
 ];
 i++;
 //Feral Swiftness - Feral
@@ -558,9 +558,9 @@ rank[i] = [
 "Reduces the cooldown of your Mangle (Bear) ability by 1.5 sec., and reduces the energy cost of your Mangle (Cat) ability by 6."
 		];
 i++;
-//custom
+//Predator's craving - Feral
 rank[i] =[
-	"Placeholder"
+	"Your finishing moves and Maul grant 3% health or haste for 8 seconds, stackable up to 3 times."
 ];
 i++;
 //Rend and Tear - Feral
@@ -757,9 +757,9 @@ rank[i]=[
 "When you critically heal your target with Swiftmend, Regrowth, Nourish or Healing Touch spell you have a 100% chance to plant a Living Seed on the target for 30% of the amount healed. The Living Seed will bloom when the target is next attacked. Lasts 15 sec."	
 ];
 i++;
-//custom
+//Dreamgrove's blessing - Restoration
 rank[i] =[
-	"Placeholder"
+	"Regrowth and Healing Touch grants affected targets one stack of Natural Perfection, stackable up to 3 times."
 ];
 i++;
 //REPLENISH - Restoration 
@@ -783,9 +783,9 @@ rank[i]=[
 "Increases your armor contribution from items while in Tree of Life Form by 200%, and increases your healing spell power by 15% of your spirit while in Tree of Life Form."
 		];
 i++;
-//custom
+//Ent's Touch - Restoration
 rank[i] =[
-	"Placeholder"
+	"The healing granted by your Wild Growth spell reduces 20% less over time."
 ];
 i++;
 //Improved Barkskin - Restoration 
