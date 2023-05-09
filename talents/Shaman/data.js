@@ -159,11 +159,11 @@ rank[i] = [
 	"Increases your Intellect by 10%."
 			];
 	i++;		
-//Custom
-rank[i]=[
-	"Placeholder"
-];
-i++;
+//Elemental Blast - Elemental
+rank[i] = [
+	"<span style=text-align:left;float:left;>45 yards range</span><br/><span style=text-align:left;float:left;>1.5 sec cast</span><span style=text-align:right;float:right;>20 sec cooldown</span><br>Harness the power of the raw elements, dealing Frost damage and grants 10% haste for 10 seconds."
+	];
+	i++;
 //Reverberation - Elemental
 rank[i] = [
 "Reduces the cooldown of your Shock spells and Wind Shear by 0.2 sec.",
@@ -279,9 +279,9 @@ rank[i] = [
 "Gives your Lightning Bolt and Chain Lightning spells a 33% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
 		];
 i++;
-//Custom
+//Earthquake - Elemental
 rank[i] =[
-	"Placeholder"
+	"<span style=text-align:left;float:left;>Channeled</span><span style=text-align:right;float:right;>40 sec cooldown</span><br>Deals 150 damage every 2 sec for 8 sec. Nearby enemies have a chance to be stunned briefly."	
 ];
 i++;
 //Astral Shift - Elemental
@@ -402,9 +402,9 @@ rank[i] = [
 "Increases your chance to dodge by an additional 3%, and reduces the duration of all Disarm effects used against you by 50%. This does not stack with other Disarm duration reducing effects."
 		];
 i++;		
-//Custom
+//Master Enhancer - Enhancement
 rank[i] =[
-	"Placeholder"
+	"Your weapon enhancements now grant additional unique bonuses, can not be stacked.<br/><br/>Flametongue Weapon: Your critical strike chance is increased by 3%<br/><br/>Frostbrand Weapon: Your block value is increased by 5%<br/><br/>Windfury Weapon: Your haste is increased by 3%"
 ];
 i++;
 //Flurry - Enhancement
@@ -490,9 +490,9 @@ rank[i]=[
 "<span style=text-align:left;float:left;>8% of base mana</span><span style=text-align:right;float:right;>Melee Range</span><br><span style=text-align:left;float:left;>Instant cast</span><span style=text-align:right;float:right;>8 sec cooldown</span><br><span style=text-align:left;float:left;>Requires Melee Weapon</span><BR>Instantly attack with both weapons. In addition, the next 4 sources of Nature damage dealt to the target from the Shaman are increased by 20%. Lasts 12 sec."
 		];
 i++;
-//Custom
+//Crash Lightning - Enhancement
 rank[i] =[
-	"Placeholder"
+	"Your Stormstrike additionally electrifies the ground below the target dealing nature damage every second for 4 seconds."
 ];
 i++;
 //Static Shock - Enhancement 
@@ -742,9 +742,9 @@ rank[i]=[
 			];
 	i++;
 
-//Custom
+//Totem Focus - Restoration
 rank[i]=[
-	"Placeholder"
+	"Your Totems now reduce the duration of all Silence or Interrupt effects by 20% and increases your Haste by 3% while active."
 ];
 i++;
 
@@ -765,7 +765,8 @@ rank[i]=[
 i++;
 //Healing Rain - Restoration 
 rank[i]=[
-	"Placeholder"
+	"<span style=text-align:left;float:left;>idk% of base mana</span><span style=text-align:right;float:right;>40 yd range</span><br><span style=text-align:left;float:left;>Instant cast</span><span style=text-align:right;float:right;>20 sec cooldown</span><br>Heals all nearby party members instantly and over 15 seconds, while active their Health is increased by 3%."
+	
 ];
 i++;
 //Restoration Talents End^^
