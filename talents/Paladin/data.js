@@ -57,7 +57,7 @@ talent[i] = [1, "Improved Hammer of Justice", 2, 2, 4]; i++;
 talent[i] = [1, "Improved Devotion Aura", 3, 3, 4]; i++;
 talent[i] = [1, "Blessing of Sanctuary", 1, 2, 5]; i++;
 talent[i] = [1, "Reckoning", 5, 3, 5]; i++;
-talent[i] = [1, "Glory of the Dawn", 1,4,5,[getTalentID("Reckoning"),1]]; i++;
+talent[i] = [1, "Seraphin", 1,4,5,[getTalentID("Reckoning"),1]]; i++;
 talent[i] = [1, "Sacred Duty", 2, 1, 6]; i++;
 talent[i] = [1, "One-Handed Weapon Specialization", 3, 3, 6]; i++;
 talent[i] = [1, "Spiritual Attunement", 2, 1, 7]; i++;
@@ -434,7 +434,7 @@ rank[i] = [
 "Gives you a 10% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack."						
 		];
 i++;
-//Glory of the Dawn - Protection
+//Seraphin - Protection
 rank[i]=[
 	"<span style=text-align:left;float:left;>Instant</span><span style=text-align:right;float:right;>1.25 min cooldown</span><br>Increases your Haste by 10% and reduces damage taken by 6% for 15 seconds. Can only be used while atleast 1 Stack of Holy Power is active."
 	];
