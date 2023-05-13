@@ -519,8 +519,8 @@ i++;
 rank[i] = [
 "When dual-wielding, your Death Strikes, Obliterates, Plague Strikes, Rune Strikes, Blood Strikes and Frost Strikes have a 30% chance to also deal damage with your offhand weapon.",
 "When dual-wielding, your Death Strikes, Obliterates, Plague Strikes, Rune Strikes, Blood Strikes and Frost Strikes have a 60% chance to also deal damage with your offhand weapon.",
-"When dual-wielding, your Death Strikes, Obliterates, Plague Strikes, Rune Strikes, Blood Strikes and Frost Strikes have a 100% chance to also deal damage with your offhand weapon."
-		];
+
+"When dual-wielding, your Death Strikes, Obliterates, Plague Strikes, Rune Strikes, Blood Strikes and Frost Strikes have a 100% chance to also deal damage with your offhand weapon. <br> <br> When using a Two-Handed Weapon your Obliterate damage is increased by 30%, damage increased by 4% and causes your Frost Strike to guarantee your next Obliterate or Howling Blast to crit."		];
 i++;
 
 //Blood of the North - FROST
@@ -565,11 +565,11 @@ rank[i] = [
 	i++;
 //Tundra Stalker - Frost
 rank[i] = [
-"Your spells and abilities deal 3% more damage to targets infected with Frost Fever. Also increases your expertise by 1.",
-"Your spells and abilities deal 6% more damage to targets infected with Frost Fever. Also increases your expertise by 2.",
-"Your spells and abilities deal 9% more damage to targets infected with Frost Fever. Also increases your expertise by 3.",
-"Your spells and abilities deal 12% more damage to targets infected with Frost Fever. Also increases your expertise by 4.",
-"Your spells and abilities deal 15% more damage to targets infected with Frost Fever. Also increases your expertise by 5."
+"Your spells and abilities deal 2% more damage to targets infected with Frost Fever. Also increases your expertise by 1.",
+"Your spells and abilities deal 3% more damage to targets infected with Frost Fever. Also increases your expertise by 2.",
+"Your spells and abilities deal 4% more damage to targets infected with Frost Fever. Also increases your expertise by 3.",
+"Your spells and abilities deal 5% more damage to targets infected with Frost Fever. Also increases your expertise by 4.",
+"Your spells and abilities deal 6% more damage to targets infected with Frost Fever. Also increases your expertise by 5."
 		];
 i++;
 
