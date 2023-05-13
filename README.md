@@ -1,10 +1,10 @@
 # Duskhaven Talent Calculator
 
 ## How to launch
-You need a php server (local or not).
+You need a html server (local or not).
 If you don't know how to use one please watch a tutorial for it.
 
-Once it's done you can execute in your web browser any of the class.php file.
+Once it's done you can execute in your web browser any of the class.html file.
 
 ## Report issue
 Whisper me on discord or create a ticket on github
