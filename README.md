@@ -15,3 +15,5 @@ Whisper me on discord
 ### Contributors
 Base by CraftedRO (https://github.com/CraftedRO/Offline-talent-calculator-for-WotLK-3.3.5a)  
 Adapted for Duskhaven by Illustre (https://github.com/BelsethUwU/Duskhaven_TalentCalculator)
+Helped with Adaptation :
+ - https://github.com/yoyosan
