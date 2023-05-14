@@ -78,9 +78,9 @@ t++;
 //retribution talents
 talent[i] = [2, "Deflection", 5, 2, 1]; i++;
 talent[i] = [2, "Benediction", 5, 3, 1]; i++;
-talent[i] = [2, "Improved Judgements", 2, 1, 2]; i++;
+talent[i] = [2, "Crusader Strike", 1, 1, 2]; i++;
 talent[i] = [2, "Heart of the Crusader", 3, 2, 2]; i++;
-talent[i] = [2, "Improved Blessing of Might", 2, 3, 2]; i++;
+talent[i] = [2, "Improved Judgements", 2, 3, 2]; i++;
 talent[i] = [2, "Vindication", 2, 1, 3]; i++;
 talent[i] = [2, "Conviction", 5, 2, 3]; i++;
 talent[i] = [2, "Seal of Command", 1, 3, 3]; i++;
@@ -99,7 +99,7 @@ talent[i] = [2, "Judgements of the Wise", 3, 3, 7]; i++;
 talent[i] = [2, "Fanaticism", 3, 2, 8, [getTalentID("Repentance"),1]]; i++;
 talent[i] = [2, "Sanctified Wrath", 2, 3, 8]; i++;
 talent[i] = [2, "Swift Retribution", 3, 1, 9]; i++;
-talent[i] = [2, "Crusader Strike", 1, 2, 9]; i++;
+talent[i] = [2, "Improved Blessing of Might", 2, 2, 9]; i++;
 talent[i] = [2, "Sheath of Light", 3, 3, 9]; i++;
 talent[i] = [2, "Righteous Vengeance", 3, 2, 10]; i++;
 talent[i] = [2, "Divine Devotion", 1,3,10,[getTalentID("Righteous Vengeance"),1]]; i++;
@@ -555,13 +555,12 @@ rank[i]=[
 		];
 i++;		
 
-//Improved Judgements - Retribution 
+	
+//Crusader Strike - Retribution
 rank[i]=[
-"Decreases the cooldown of your Judgement spells by 1 sec.",
-"Decreases the cooldown of your Judgement spells by 2 sec."
-		];
-i++;		
-
+	"<span style=text-align:left;float:left;>5% of base mana</span><span style=text-align:right;float:right;>Melee Range</span><br><span style=text-align:left;float:left;>Instant cast</span><span style=text-align:right;float:right;>4 sec cooldown</span><br>Requires Melee Weapon<br>An instant strike that causes 75% weapon damage."						
+			];
+	i++;
 //Heart of the Crusader - Retribution  
 rank[i]=[
 "In addition to the normal effect, your Judgement spells will also increase the critical strike chance of all attacks made against that target by an additional 1%.",
@@ -570,13 +569,12 @@ rank[i]=[
 		];
 i++;
 
-//Improved Blessing of Might - Retribution
+//Improved Judgements - Retribution 
 rank[i]=[
-"Increases the attack power bonus of your Blessing of Might by 12%.",
-"Increases the attack power bonus of your Blessing of Might by 25%."
-		];
-i++;	
-
+	"Decreases the cooldown of your Judgement spells by 1 sec.",
+	"Decreases the cooldown of your Judgement spells by 2 sec."
+			];
+	i++;	
 //Vindication - Retribution
 rank[i]=[
 "Gives the Paladin's damaging attacks a chance to reduce the target's attack power by 23 for 10 sec.",
@@ -634,7 +632,7 @@ i++;
 rank[i]=[
 "Increases the damage you deal with two-handed melee weapons by 2%.",
 "Increases the damage you deal with two-handed melee weapons by 4%.",
-"Increases the damage you deal with two-handed melee weapons by 6%."
+"Increases the damage you deal with two-handed melee weapons by 6% and causes your Judgement to apply Zeal.<br><br> Zeal increases your Attack Speed by 15% for 5 seconds and causes your Attacks to deal additional Holy Damage at a 30% Chance. Not useable with two one-handed Weapons."
 		];
 i++;	
 
@@ -659,7 +657,7 @@ i++;
 //Divine Purpose - Retribution 
 rank[i]=[
 "Reduces your chance to be hit by spells and ranged attacks by 2% and gives your Hand of Freedom spell a 50% chance to remove any Stun effects on the target.",
-"Reduces your chance to be hit by spells and ranged attacks by 4% and gives your Hand of Freedom spell a 100% chance to remove any Stun effects on the target."							
+"Reduces your chance to be hit by spells and ranged attacks by 4% and gives your Hand of Freedom spell a 100% chance to remove any Stun effects on the target.<br><br>Teaches you how to wield two-one handed Weapons. Crusader Strike and Divine Storm now deal 55% / 75% damage with your off-hand Weapon and Seal of Command strikes a second time for 33% Damage. Can not be combined with Zeal."							
 		];
 i++;
 
@@ -707,11 +705,12 @@ rank[i]=[
 		];
 i++;
 
-//Crusader Strike - Retribution
+//Improved Blessing of Might - Retribution
 rank[i]=[
-"<span style=text-align:left;float:left;>5% of base mana</span><span style=text-align:right;float:right;>Melee Range</span><br><span style=text-align:left;float:left;>Instant cast</span><span style=text-align:right;float:right;>4 sec cooldown</span><br>Requires Melee Weapon<br>An instant strike that causes 75% weapon damage."						
-		];
-i++;
+	"Increases the attack power bonus of your Blessing of Might by 12%.",
+	"Increases the attack power bonus of your Blessing of Might by 25%."
+			];
+	i++;	
 
 //Sheath of Light - Retribution 
 rank[i]=[
