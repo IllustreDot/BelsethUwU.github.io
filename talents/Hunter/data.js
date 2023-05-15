@@ -139,8 +139,8 @@ i++;
 
 //Focused Fire - Beast Mastery
 rank[i] = [
-"All damage caused by you is increased by 1% while your pet is active and the critical strike chance of your pet's special abilities is increased by 10% while Kill Command is active.",
-"All damage caused by you is increased by 2% while your pet is active and the critical strike chance of your pet's special abilities is increased by 20% while Kill Command is active."
+"All damage caused by you is increased by 1% while your pet is active and the critical strike chance of your pet's special abilities is increased by 10% while Kill Command is active. Damage done while using a Two-Handed Weapon increased by 5%",
+"All damage caused by you is increased by 2% while your pet is active and the critical strike chance of your pet's special abilities is increased by 20% while Kill Command is active. Damage done while using a Two-Handed Weapon increased by 10%"
 		];
 i++;		
 		
@@ -179,7 +179,7 @@ i++;
 
 //Aspect Mastery - Beast Mastery
 rank[i] = [
-"Aspect of the Viper - Reduces the damage penalty by 10%.<br/><br/>Aspect of the Monkey - Reduces the damage done to you while active by 5%<br/><br/>Aspect of the Hawk - Increases the attack power bonus by 30%<br/><br/>Aspect of the Dragonhawk - Combines the bonuses from Aspect of the Monkey and Hawk.",
+"Aspect of the Viper - Reduces the damage penalty by 10%.<br/><br/>Aspect of the Monkey - Reduces the damage done to you while active by 5%<br/><br/>Aspect of the Hawk - Increases the attack power bonus by 30%<br/><br/>Aspect of the Dragonhawk - Combines the bonuses from Aspect of the Monkey and Hawk.<br/><br/>Aspect of the Beast - Increases the duration of Rapid Fire by 4 seconds.",
 		];		
 i++;		
 
@@ -209,11 +209,11 @@ i++;
 
 //Ferocity - Beast Mastery
 rank[i] = [
-"Increases the critical strike chance of your pet by 2%.",
-"Increases the critical strike chance of your pet by 4%.",
-"Increases the critical strike chance of your pet by 6%.",
-"Increases the critical strike chance of your pet by 8%.",
-"Increases the critical strike chance of your pet by 10%."
+"Increases the critical strike chance of your pet and turret by 2%.",
+"Increases the critical strike chance of your pet and turret by 4%.",
+"Increases the critical strike chance of your pet and turret by 6%.",
+"Increases the critical strike chance of your pet and turret by 8%.",
+"Increases the critical strike chance of your pet and turret by 10%."
 
 		];
 i++;		
