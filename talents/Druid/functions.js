@@ -347,9 +347,7 @@ function changeCopyURL(){
 	}
 
     document.getElementById('copyURL').innerHTML = templateString;	
-
 }
-
 function rankTopOnRightClick(talentID) {
 
 	if (!variableIsSite)
