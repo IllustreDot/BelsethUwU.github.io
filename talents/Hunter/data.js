@@ -618,8 +618,8 @@ i++;
 
 //Survival Instincts - Survival
 rank[i]=[
-"Reduces all damage taken by 2% and increases the critical strike chance of your Arcane Shot, Steady Shot, and Explosive Shot by 2%.",
-"Reduces all damage taken by 4% and increases the critical strike chance of your Arcane Shot, Steady Shot, and Explosive Shot by 4%."
+"Reduces all damage taken by 2% and increases the critical strike chance of your Arcane Shot, Steady Shot, and Explosive Shot by 2%. Increases Expertise by 5",
+"Reduces all damage taken by 4% and increases the critical strike chance of your Arcane Shot, Steady Shot, and Explosive Shot by 4%. Increases Expertise by 10"
 		];
 i++;
 
@@ -641,9 +641,9 @@ i++;
 	
 //Deflection - Survival
 rank[i]=[
-"Increases your chance to parry by 1%, and reduces the duration of all Disarm effects used against you by 16%. This does not stack with other Disarm duration reducing effects.",
-"Increases your chance to parry by 2%, and reduces the duration of all Disarm effects used against you by 25%. This does not stack with other Disarm duration reducing effects.",
-"Increases your chance to parry by 3%, and reduces the duration of all Disarm effects used against you by 50%. This does not stack with other Disarm duration reducing effects."
+"Increases your chance to parry by 1%, and reduces the duration of all Disarm effects used against you by 16%. This does not stack with other Disarm duration reducing effects. Grants 1% melee hit chance",
+"Increases your chance to parry by 2%, and reduces the duration of all Disarm effects used against you by 25%. This does not stack with other Disarm duration reducing effects. Grants 2% melee hit chance",
+"Increases your chance to parry by 3%, and reduces the duration of all Disarm effects used against you by 50%. This does not stack with other Disarm duration reducing effects. Grants 3% melee hit chance"
 		];
 i++;	
 
@@ -758,8 +758,8 @@ i++;
 
 //Point of No Escape - Survival
 rank[i]=[
-"Increases the critical strike chance of all attacks on targets affected by your Frost Trap, Freezing Trap and Freezing Arrow by 3%.",
-"Increases the critical strike chance of all attacks on targets affected by your Frost Trap, Freezing Trap and Freezing Arrow by 6%."
+"Increases the critical strike chance of all of your attacks on targets affected by your Frost Trap, Freezing Trap and Freezing Arrow by 3%.<br /><br />When dual-wielding, your Raptor Strike and Mongoose Bite have a 50% chance to also deal 50% of its original damage with your offhand weapon.",
+"Increases the critical strike chance of all of your attacks on targets affected by your Frost Trap, Freezing Trap and Freezing Arrow by 6%.<br /><br />When dual-wielding, your Raptor Strike and Mongoose Bite have a 100% chance to also deal 50% of its original damage with your offhand weapon."
 		];
 i++;
 	
@@ -771,9 +771,9 @@ i++;
 	
 //Sniper Training - Survival
 rank[i]=[
-"Increases the critical strike chance of your Kill Shot ability by 5%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 2% for 15 sec.",
-"Increases the critical strike chance of your Kill Shot ability by 10%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 4% for 15 sec.",
-"Increases the critical strike chance of your Kill Shot ability by 15%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 6% for 15 sec."
+"Increases the critical strike chance of your Kill Shot ability by 5%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 2% for 15 sec. Damage done by your offhand Weapon increased by 10%",
+"Increases the critical strike chance of your Kill Shot ability by 10%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 4% for 15 sec. Damage done by your offhand Weapon increased by 20%",
+"Increases the critical strike chance of your Kill Shot ability by 15%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 6% for 15 sec. Damage done by your offhand Weapon increased by 30%"
 		];
 i++;	
 
