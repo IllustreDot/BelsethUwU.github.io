@@ -342,11 +342,11 @@ massiveReplaceString += "</td></tr>";
 
 massiveReplaceString += "</table>";
 
-massiveReplaceString += '<div><button onclick="copyURL()" style="width: 200px;height:50px;">Copy URL</button></div>';
+massiveReplaceString += '<div><button onclick="copyURL()" style="width: 200px;height:50px; background-color: #000; color: goldenrod;">Copy URL</button></div>';
 
-massiveReplaceString += '<br><span style = "color: #ffffff;"><span style = "font-weight: bold;">'+ textToSave +'</span></span><br>';
+massiveReplaceString += '<br><span style = "color: #ffffff;display:none;"><span style = "font-weight: bold;">'+ textToSave +'</span></span><br>';
 
-massiveReplaceString += '<span style = "color:ffd800;">'+ theURLtoCopy +'?tal=<span id = "copyURL" style = "color:ffd800"></span></span><br></div>';
+massiveReplaceString += '<span style = "color:ffd800; display:none;">'+ theURLtoCopy +'?tal=<span id = "copyURL" style = "color:ffd800"></span></span><br></div>';
 
 
 document.getElementById('replaceMeWithTalents').innerHTML = massiveReplaceString;
