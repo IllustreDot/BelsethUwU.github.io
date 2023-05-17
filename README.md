@@ -7,7 +7,8 @@ If you don't know how to use one please watch a tutorial for it.
 Once it's done you can execute in your web browser any of the class.html file.
 
 ## Report issue
-Whisper me on discord or create a ticket on github
+Whisper me on discord or create a ticket on github  
+For missing information(s) please screenshot the talent(s) in question  
 
 ## Wanting to help 
 Whisper me on discord
