@@ -24,12 +24,39 @@
 </div>
 </br>
 <div id="replaceMeWithTalents"></div>
+  
+  <script>
+    function copyURL() {
+      // Get the text inside the span element
+      const span = document.getElementById("copyURL");
+      const text = span.innerText;
+  
+      // Create a temporary textarea element and set its value to the text to copy
+      const textarea = document.createElement("textarea");
+      textarea.value = "https://belsethuwu.github.io/druid.html?tal="+text;
+
+      // Append the textarea element to the document
+      document.body.appendChild(textarea);
+  
+      // Select the text inside the textarea
+      textarea.select();
+  
+      // Copy the selected text to the clipboard
+      document.execCommand("copy");
+  
+      // Remove the textarea element from the document
+      document.body.removeChild(textarea);
+  
+      // Alert the user that the URL has been copied
+      alert("URL copied to clipboard!");
+    }
+  </script>  
 </center>
 
 <script type="text/javascript">
 var pageId = "Druid";
 var variableIsSite = 1;
-var theURLtoCopy = "<?html echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_NAME']; ?>";
+var theURLtoCopy = "belsethuwu.github.io/druid.html";
 </script>
 <script type="text/javascript" src="talents/Druid/detection.js"></script>
 <script type="text/javascript" src="talents/Druid/variables.js"></script>

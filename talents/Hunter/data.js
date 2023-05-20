@@ -139,8 +139,8 @@ i++;
 
 //Focused Fire - Beast Mastery
 rank[i] = [
-"All damage caused by you is increased by 1% while your pet is active and the critical strike chance of your pet's special abilities is increased by 10% while Kill Command is active.",
-"All damage caused by you is increased by 2% while your pet is active and the critical strike chance of your pet's special abilities is increased by 20% while Kill Command is active."
+"All damage caused by you is increased by 1% while your pet is active and the critical strike chance of your pet's special abilities is increased by 10% while Kill Command is active. Damage done while using a Two-Handed Weapon increased by 5%",
+"All damage caused by you is increased by 2% while your pet is active and the critical strike chance of your pet's special abilities is increased by 20% while Kill Command is active. Damage done while using a Two-Handed Weapon increased by 10%"
 		];
 i++;		
 		
@@ -179,7 +179,7 @@ i++;
 
 //Aspect Mastery - Beast Mastery
 rank[i] = [
-"Aspect of the Viper - Reduces the damage penalty by 10%.<br/><br/>Aspect of the Monkey - Reduces the damage done to you while active by 5%<br/><br/>Aspect of the Hawk - Increases the attack power bonus by 30%<br/><br/>Aspect of the Dragonhawk - Combines the bonuses from Aspect of the Monkey and Hawk.",
+"Aspect of the Viper - Reduces the damage penalty by 10%.<br/><br/>Aspect of the Monkey - Reduces the damage done to you while active by 5%<br/><br/>Aspect of the Hawk - Increases the attack power bonus by 30%<br/><br/>Aspect of the Dragonhawk - Combines the bonuses from Aspect of the Monkey and Hawk.<br/><br/>Aspect of the Beast - Increases the duration of Rapid Fire by 4 seconds.",
 		];		
 i++;		
 
@@ -209,11 +209,11 @@ i++;
 
 //Ferocity - Beast Mastery
 rank[i] = [
-"Increases the critical strike chance of your pet by 2%.",
-"Increases the critical strike chance of your pet by 4%.",
-"Increases the critical strike chance of your pet by 6%.",
-"Increases the critical strike chance of your pet by 8%.",
-"Increases the critical strike chance of your pet by 10%."
+"Increases the critical strike chance of your pet and turret by 2%.",
+"Increases the critical strike chance of your pet and turret by 4%.",
+"Increases the critical strike chance of your pet and turret by 6%.",
+"Increases the critical strike chance of your pet and turret by 8%.",
+"Increases the critical strike chance of your pet and turret by 10%."
 
 		];
 i++;		
@@ -618,8 +618,8 @@ i++;
 
 //Survival Instincts - Survival
 rank[i]=[
-"Reduces all damage taken by 2% and increases the critical strike chance of your Arcane Shot, Steady Shot, and Explosive Shot by 2%.",
-"Reduces all damage taken by 4% and increases the critical strike chance of your Arcane Shot, Steady Shot, and Explosive Shot by 4%."
+"Reduces all damage taken by 2% and increases the critical strike chance of your Arcane Shot, Steady Shot, and Explosive Shot by 2%. Increases Expertise by 5",
+"Reduces all damage taken by 4% and increases the critical strike chance of your Arcane Shot, Steady Shot, and Explosive Shot by 4%. Increases Expertise by 10"
 		];
 i++;
 
@@ -641,9 +641,9 @@ i++;
 	
 //Deflection - Survival
 rank[i]=[
-"Increases your chance to parry by 1%, and reduces the duration of all Disarm effects used against you by 16%. This does not stack with other Disarm duration reducing effects.",
-"Increases your chance to parry by 2%, and reduces the duration of all Disarm effects used against you by 25%. This does not stack with other Disarm duration reducing effects.",
-"Increases your chance to parry by 3%, and reduces the duration of all Disarm effects used against you by 50%. This does not stack with other Disarm duration reducing effects."
+"Increases your chance to parry by 1%, and reduces the duration of all Disarm effects used against you by 16%. This does not stack with other Disarm duration reducing effects. Grants 1% melee hit chance",
+"Increases your chance to parry by 2%, and reduces the duration of all Disarm effects used against you by 25%. This does not stack with other Disarm duration reducing effects. Grants 2% melee hit chance",
+"Increases your chance to parry by 3%, and reduces the duration of all Disarm effects used against you by 50%. This does not stack with other Disarm duration reducing effects. Grants 3% melee hit chance"
 		];
 i++;	
 
@@ -758,8 +758,8 @@ i++;
 
 //Point of No Escape - Survival
 rank[i]=[
-"Increases the critical strike chance of all attacks on targets affected by your Frost Trap, Freezing Trap and Freezing Arrow by 3%.",
-"Increases the critical strike chance of all attacks on targets affected by your Frost Trap, Freezing Trap and Freezing Arrow by 6%."
+"Increases the critical strike chance of all of your attacks on targets affected by your Frost Trap, Freezing Trap and Freezing Arrow by 3%.<br /><br />When dual-wielding, your Raptor Strike and Mongoose Bite have a 50% chance to also deal 50% of its original damage with your offhand weapon.",
+"Increases the critical strike chance of all of your attacks on targets affected by your Frost Trap, Freezing Trap and Freezing Arrow by 6%.<br /><br />When dual-wielding, your Raptor Strike and Mongoose Bite have a 100% chance to also deal 50% of its original damage with your offhand weapon."
 		];
 i++;
 	
@@ -771,9 +771,9 @@ i++;
 	
 //Sniper Training - Survival
 rank[i]=[
-"Increases the critical strike chance of your Kill Shot ability by 5%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 2% for 15 sec.",
-"Increases the critical strike chance of your Kill Shot ability by 10%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 4% for 15 sec.",
-"Increases the critical strike chance of your Kill Shot ability by 15%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 6% for 15 sec."
+"Increases the critical strike chance of your Kill Shot ability by 5%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 2% for 15 sec. Damage done by your offhand Weapon increased by 10%",
+"Increases the critical strike chance of your Kill Shot ability by 10%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 4% for 15 sec. Damage done by your offhand Weapon increased by 20%",
+"Increases the critical strike chance of your Kill Shot ability by 15%, and while standing still for 6 sec, you gain Sniper Training increasing the damage done by your Steady Shot, Aimed Shot, Black Arrow and Explosive Shot by 6% for 15 sec. Damage done by your offhand Weapon increased by 30%"
 		];
 i++;	
 
