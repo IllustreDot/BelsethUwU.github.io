@@ -64,6 +64,7 @@ nltalent[i] = ["Combat Expertise"]; i++;
 nltalent[i] = ["Touched by the Light"]; i++;
 nltalent[i] = ["Avenger's Shield"]; i++;
 nltalent[i] = ["Guarded by the Light"]; i++;
+nltalent[i] = ["Oath of the Silver Hand"]; i++;
 nltalent[i] = ["Shield of the Templar"]; i++;
 nltalent[i] = ["Judgements of the Just"]; i++;
 nltalent[i] = ["Hammer of the Righteous"]; i++;

@@ -68,6 +68,7 @@ talent[i] = [1, "Combat Expertise", 3, 3, 8]; i++;
 talent[i] = [1, "Touched by the Light", 3, 1, 9]; i++;
 talent[i] = [1, "Avenger's Shield", 1, 2, 9, [getTalentID("Holy Shield"),1]]; i++;
 talent[i] = [1, "Guarded by the Light", 2, 3, 9]; i++;
+talent[i] = [1, "Oath of the Silver Hand",1,1,10],[getTalentID("Touched by the Light"),1]; i++;
 talent[i] = [1, "Shield of the Templar", 3, 2, 10, [getTalentID("Avenger's Shield"),1]]; i++;
 talent[i] = [1, "Judgements of the Just", 2, 3, 10]; i++;
 talent[i] = [1, "Hammer of the Righteous", 1, 2, 11]; i++;
@@ -498,7 +499,7 @@ rank[i] = [
 "Increases your spell power by an amount equal to 60% of your Strength and increases the amount healed by your critical heals by 30%."		
 		];
 i++;	
-	
+
 //Avenger's Shield - Protection
 rank[i] = [
 "<span style=text-align:left;float:left;>26% of base mana</span><span style=text-align:right;float:right;>30 yd range</span><br><span style=text-align:left;float:left;>Instant Cast</span><span style=text-align:right;float:right;>30 sec cooldown</span><br>Hurls a holy shield at the enemy, dealing 441 to 537 Holy damage, Dazing them and then jumping to additional nearby enemies. Affects 3 total targets. Lasts 10 sec.<br>"
@@ -511,7 +512,11 @@ rank[i]=[
 "Reduces spell damage taken by 6% and gives a 100% chance to refresh the duration of your Divine Plea when you hit an enemy. In addition, your Divine Plea spell is 100% less likely to be dispelled."
 		];
 i++;	
-
+//Oath of the Silver Hand - Protection
+rank[i]=[
+"Increases your resistances by an amount equal to 5% of your strength."
+		];
+i++;
 //Shield of the Templar - Protection
 rank[i]=[
 "Reduces all damage taken by 1% and grants your Avenger's Shield a 33% chance to silence your targets for 3 sec.",
